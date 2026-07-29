@@ -16,7 +16,10 @@
    - "Fire danger indices" (Copernicus EFFIS/CEMS product — historical + projected fire weather, already computed)
    - "Standardised Precipitation Index" products if available, or the E-OBS precipitation dataset if you need to compute SPI yourself
 3. If a needed indicator isn't pre-built, pull raw ERA5 for just that one variable (e.g., precipitation for Larissa) rather than the full variable set from the original plan
-4. Extract data for Seville and Larissa bounding boxes only, 1990–2020
+4. Extract data for Seville and Larissa bounding boxes only, 1990–2025 (full calendar years
+   only — 2026 is excluded so as not to mix a partial year and preliminary ERA5T data into
+   the record). Percentile thresholds (heatwave definition, etc.) stay fixed to the
+   1990–2020 reference period regardless.
 5. Load into pandas, do a first visual check: plot raw temperature/precipitation time series for both cities — confirms your download actually worked before you build anything on top of it
 
 **Milestone by end of Week 1:** two clean historical dataframes (Seville, Larissa), each plotted and sanity-checked.
@@ -33,7 +36,7 @@
 
 ## Week 3: Projections + trend analysis
 
-11. Pull the same pre-built indicators (or raw variables) for 2025–2045, SSP5-8.5, same two cities
+11. Pull the same pre-built indicators (or raw variables) for 2026–2045, SSP5-8.5, same two cities
 12. Apply the same indicator calculations to the projected data (reuse Week 2 code/thresholds — don't recompute the 90th-percentile baseline on projected data, keep it anchored to 1990–2020)
 13. Basic time series analysis on both historical and projected series: a linear trend line (simple `numpy.polyfit` or `scipy.stats.linregress` is enough — you don't need ARIMA or anything advanced) to quantify "X more heatwave days per decade"
 14. Plot historical + projected together, 1990–2045, one chart per indicator per city (should be ~4-5 charts total: Seville heatwaves, Seville tropical nights, Seville fire risk, Larissa SPI, Larissa volatility)

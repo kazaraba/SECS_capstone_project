@@ -1,0 +1,7 @@
+,t2m_celsius,t2m_celsius,d2m_celsius,d2m_celsius,rh_percent,rh_percent,heat_index_c,heat_index_c,dewpoint_depression_c,dewpoint_depression_c,wind_speed,wind_speed,precip_mm,precip_mm
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+point,,,,,,,,,,,,,,
+"39.5N, 22.25E",16.556,9.578,8.156,5.851,62.713,21.412,15.791,9.919,8.4,6.553,1.542,0.965,0.06,0.295
+"39.5N, 22.5E",15.685,9.475,8.226,5.938,66.431,22.152,14.954,9.832,7.459,6.444,1.676,1.095,0.068,0.35
+"39.75N, 22.25E",14.781,8.948,7.914,6.214,67.371,19.433,14.029,9.42,6.866,5.373,1.365,0.8,0.077,0.324
+"39.75N, 22.5E",15.387,8.572,8.568,6.223,67.301,18.537,14.709,9.073,6.819,5.113,1.718,1.028,0.078,0.36

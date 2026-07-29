@@ -5,9 +5,17 @@
 A comparative climate risk analysis of two southern European cities — **Seville, Spain**
 (heat and wildfire exposure) and **Larissa, Greece** (drought-to-flood volatility in the
 Thessaly agricultural plain) — examining how climate stress indicators evolved from
-1990–2020 and are projected to change through 2045 under a high-emissions scenario
-(SSP5-8.5). The project uses ERA5 reanalysis data, CMIP6/pre-built Copernicus climate
-indicators, and a custom volatility metric built from precipitation extremes.
+1990–2025 and are projected to change through 2045 (2026–2045 projection window) under a
+high-emissions scenario (SSP5-8.5). The project uses ERA5 reanalysis data, CMIP6/pre-built
+Copernicus climate indicators, and a custom volatility metric built from precipitation
+extremes.
+
+**Note on baseline vs. historical record:** the historical record now runs 1990–2025 (full
+calendar years only — 2026 is excluded to avoid mixing in a partial year and
+not-yet-finalized ERA5T data). Percentile-based thresholds (90th-percentile heatwave
+definition, etc.) stay anchored to the fixed 1990–2020 reference period regardless of how
+far the observed record extends, so the 2021–2025 years are tested against that baseline
+rather than folded into it.
 
 **Why these two cities:** They represent two distinct climate "failure modes" rather than
 a single generic-warming narrative — Seville shows sustained, escalating heat stress,
@@ -20,9 +28,9 @@ flooding, as seen with Storm Daniel in September 2023) rather than steady drying
 ## Hypotheses to Test
 
 1. **H1 — Heat escalation (Seville):** Heatwave frequency (≥3 consecutive days above the
-   90th-percentile historical threshold) and tropical nights (min temp ≥20°C) show a
-   statistically significant upward trend 1990–2020, continuing/accelerating under
-   SSP5-8.5 through 2045.
+   90th-percentile historical threshold, fixed to the 1990–2020 reference period) and
+   tropical nights (min temp ≥20°C) show a statistically significant upward trend across
+   the 1990–2025 historical record, continuing/accelerating under SSP5-8.5 through 2045.
 
 2. **H2 — Compound fire risk (Seville):** Fire danger index values correlate more
    strongly with combined heat+dryness conditions than with temperature alone —
@@ -51,12 +59,13 @@ heterogeneity.*
 
 | Purpose | Dataset | Cities | Period |
 |---|---|---|---|
-| Historical baseline (temp, precip, wind, RH) | `reanalysis-era5-single-levels` (CDS) | Both | 1990–2020 |
+| Historical baseline (temp, precip, wind, RH) | `reanalysis-era5-single-levels` (CDS) | Both | 1990–2025 |
+| Fixed reference period for percentile thresholds | Same dataset, subset in analysis | Both | 1990–2020 |
 | Pre-built climate indicators (check first — may cover heatwave/tropical night calcs already) | `sis-ecde-climate-indicators` (CDS) | Both | 1940–2100 |
-| Raw projections (fallback if pre-built indicators don't cover it) | `projections-cmip6`, SSP5-8.5 scenario | Both | 2025–2045 |
-| Fire danger, historical | CEMS Fire danger historical dataset (CDS) | Seville | 1990–2020 |
-| Fire danger, projected | "Fire danger indicators for Europe" (RCP4.5/8.5, FWI-based) | Seville | 2025–2045 |
-| Precipitation for SPI | Same ERA5 pull as baseline (`total_precipitation` variable); optional E-OBS cross-check | Larissa | 1990–2020 |
+| Raw projections (fallback if pre-built indicators don't cover it) | `projections-cmip6`, SSP5-8.5 scenario | Both | 2026–2045 |
+| Fire danger, historical | CEMS Fire danger historical dataset (CDS) | Seville | 1990–2025 |
+| Fire danger, projected | "Fire danger indicators for Europe" (RCP4.5/8.5, FWI-based) | Seville | 2026–2045 |
+| Precipitation for SPI | Same ERA5 pull as baseline (`total_precipitation` variable); optional E-OBS cross-check | Larissa | 1990–2025 |
 
 **Scope note for the write-up:** the fire danger projections use RCP scenarios
 (CMIP5-era), not SSP5-8.5 (CMIP6-era) — roughly comparable in severity but not
@@ -78,7 +87,7 @@ events (2022 Seville heat, 2023 Larissa drought→flood) — do not proceed unti
 up clearly in your own computed data.
 
 **Week 3 — Projections + trend analysis**
-Pull SSP5-8.5 projection data (or use pre-built indicators through 2045); apply the same
+Pull SSP5-8.5 projection data for 2026–2045 (or use pre-built indicators through 2045); apply the same
 indicator logic to projected data using the same historical baseline thresholds; fit
 simple linear trends (not advanced time series models); produce before/after comparison
 charts for each indicator.
@@ -94,8 +103,8 @@ if ahead of schedule.
 ## Expected / Potential Results
 
 - **Seville:** A visible, likely statistically significant upward trend in both heatwave
-  frequency and tropical-night counts across the historical record, with the trend
-  continuing (and plausibly steepening) in the 2025–2045 projection — consistent with
+  frequency and tropical-night counts across the 1990–2025 historical record, with the
+  trend continuing (and plausibly steepening) in the 2026–2045 projection — consistent with
   published findings that southern Europe, and Iberia specifically, is warming faster
   than the global average and is already setting individual national heat records.
 - **Seville fire risk:** Fire danger index values that track more closely with combined

@@ -5,7 +5,10 @@ each plotted and sanity-checked, ready for indicator calculations in Week 2.
 
 **Bounding boxes to use throughout:**
 - Seville: North 37.6, West -6.2, South 37.2, East -5.7
-- Larissa: North 39.8, West 21.9, South 39.5, East 22.6
+- Larissa: North 39.8, West 22.2, South 39.4, East 22.7
+  (corrected — matches the grid points, 39.50°/39.75°N × 22.25°/22.50°E, actually present
+  in `larissa_era5_historical.csv`; the box previously listed here did not match the real
+  data and would have misaligned any new pull against the existing 30 years)
 
 ---
 
