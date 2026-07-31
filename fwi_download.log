@@ -1,0 +1,1084 @@
+nohup: ignoring input
+180 request(s) outstanding (5 vars x 36 years)
+[1/180] fire_weather_index 1990 -> data\raw_fwi\fire_weather_index_1990.nc
+2026-07-31 13:07:04,274 INFO Request ID is a9599c2d-338a-4200-a146-07b55cb69091
+2026-07-31 13:07:04,346 INFO status has been updated to accepted
+2026-07-31 13:07:26,816 INFO status has been updated to running
+2026-07-31 13:07:38,394 INFO status has been updated to successful
+7837d3c476ede0cedd523ea176deb08d.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]7837d3c476ede0cedd523ea176deb08d.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 192kB/s]                                                                                        [2/180] drought_code 1990 -> data\raw_fwi\drought_code_1990.nc
+2026-07-31 13:07:41,376 INFO Request ID is 780f1e55-34d4-453e-a35b-de40cef06e43
+2026-07-31 13:07:41,847 INFO status has been updated to accepted
+2026-07-31 13:07:55,617 INFO status has been updated to running
+2026-07-31 13:08:33,375 INFO status has been updated to successful
+7985f185158000a26d63772f28aae7ae.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]7985f185158000a26d63772f28aae7ae.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 226kB/s]                                                                                        [3/180] fine_fuel_moisture_code 1990 -> data\raw_fwi\fine_fuel_moisture_code_1990.nc
+2026-07-31 13:08:35,638 INFO Request ID is 4c10e0c2-be48-45e7-9d53-8926d4efb7e4
+2026-07-31 13:08:35,708 INFO status has been updated to accepted
+2026-07-31 13:08:57,692 INFO status has been updated to running
+2026-07-31 13:09:52,725 INFO status has been updated to successful
+e05c64c89a0570f1d5c1330781ba2251.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]e05c64c89a0570f1d5c1330781ba2251.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 210kB/s]                                                                                        [4/180] build_up_index 1990 -> data\raw_fwi\build_up_index_1990.nc
+2026-07-31 13:09:53,515 INFO Request ID is d86e07eb-89b9-496e-86d8-387cebfc5039
+2026-07-31 13:09:53,584 INFO status has been updated to accepted
+2026-07-31 13:10:14,769 INFO status has been updated to running
+2026-07-31 13:10:43,382 INFO status has been updated to successful
+476d3b8b789cee97f2a132b2adefe849.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]476d3b8b789cee97f2a132b2adefe849.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 225kB/s]                                                                                        [5/180] initial_fire_spread_index 1990 -> data\raw_fwi\initial_fire_spread_index_1990.nc
+2026-07-31 13:10:44,194 INFO Request ID is a814bf69-b38f-469c-a5c0-3238ee3e6922
+2026-07-31 13:10:44,269 INFO status has been updated to accepted
+2026-07-31 13:10:57,916 INFO status has been updated to running
+2026-07-31 13:11:34,266 INFO status has been updated to successful
+6efabe50dd63727bb0596bd11ec3e9aa.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]6efabe50dd63727bb0596bd11ec3e9aa.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 201kB/s]                                                                                        [6/180] fire_weather_index 1991 -> data\raw_fwi\fire_weather_index_1991.nc
+2026-07-31 13:11:35,384 INFO Request ID is 84cc43d1-e371-4125-96e8-5562701a79ca
+2026-07-31 13:11:35,446 INFO status has been updated to accepted
+2026-07-31 13:11:56,664 INFO status has been updated to running
+2026-07-31 13:12:25,283 INFO status has been updated to successful
+f323eec34def7c526f03e451c5cd6394.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]f323eec34def7c526f03e451c5cd6394.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 226kB/s]                                                                                        [7/180] drought_code 1991 -> data\raw_fwi\drought_code_1991.nc
+2026-07-31 13:12:26,912 INFO Request ID is 93fe16c7-5952-473c-9c6b-8ebe382793a7
+2026-07-31 13:12:27,072 INFO status has been updated to accepted
+2026-07-31 13:12:49,098 INFO status has been updated to running
+2026-07-31 13:13:43,419 INFO status has been updated to successful
+11bbe9cf83c35585e6550570f0e971b5.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]11bbe9cf83c35585e6550570f0e971b5.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 215kB/s]                                                                                        [8/180] fine_fuel_moisture_code 1991 -> data\raw_fwi\fine_fuel_moisture_code_1991.nc
+2026-07-31 13:13:44,202 INFO Request ID is 86aead13-1cab-402c-a723-701a0caabdad
+2026-07-31 13:13:44,284 INFO status has been updated to accepted
+2026-07-31 13:14:05,770 INFO status has been updated to running
+2026-07-31 13:15:38,857 INFO status has been updated to successful
+7aafbc54027370d5d19be8a86ceaecd2.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]7aafbc54027370d5d19be8a86ceaecd2.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 208kB/s]                                                                                        [9/180] build_up_index 1991 -> data\raw_fwi\build_up_index_1991.nc
+2026-07-31 13:15:39,615 INFO Request ID is 2243f90d-e021-4454-b9f1-f45ee361bc99
+2026-07-31 13:15:39,696 INFO status has been updated to accepted
+2026-07-31 13:16:12,360 INFO status has been updated to running
+2026-07-31 13:16:29,505 INFO status has been updated to successful
+75548cea86707e42a63d30e639553e40.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]75548cea86707e42a63d30e639553e40.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 231kB/s]                                                                                        [10/180] initial_fire_spread_index 1991 -> data\raw_fwi\initial_fire_spread_index_1991.nc
+2026-07-31 13:16:30,337 INFO Request ID is 4ad88841-2baa-4a9d-9631-af731da759c0
+2026-07-31 13:16:30,403 INFO status has been updated to accepted
+2026-07-31 13:16:52,960 INFO status has been updated to running
+2026-07-31 13:17:21,580 INFO status has been updated to successful
+a5943ba65ebc3cb75f45603e2868754d.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]a5943ba65ebc3cb75f45603e2868754d.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 225kB/s]                                                                                        [11/180] fire_weather_index 1992 -> data\raw_fwi\fire_weather_index_1992.nc
+2026-07-31 13:17:22,530 INFO Request ID is 4f34e345-0eaf-4d36-a1bd-16f3d99fcd4f
+2026-07-31 13:17:22,622 INFO status has been updated to accepted
+2026-07-31 13:17:37,449 INFO status has been updated to running
+2026-07-31 13:20:16,092 INFO status has been updated to successful
+f994d976a57bebf50bce01317a08950e.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]f994d976a57bebf50bce01317a08950e.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 240kB/s]                                                                                        [12/180] drought_code 1992 -> data\raw_fwi\drought_code_1992.nc
+2026-07-31 13:20:18,731 INFO Request ID is e5933545-7922-47fb-aa81-7427a20c9164
+2026-07-31 13:20:18,808 INFO status has been updated to accepted
+2026-07-31 13:20:35,939 INFO status has been updated to running
+2026-07-31 13:21:12,200 INFO status has been updated to successful
+fc5e7a2ada49a2d8a5f3dfdecbb44b27.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]fc5e7a2ada49a2d8a5f3dfdecbb44b27.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 193kB/s]                                                                                        [13/180] fine_fuel_moisture_code 1992 -> data\raw_fwi\fine_fuel_moisture_code_1992.nc
+2026-07-31 13:21:13,009 INFO Request ID is 22cabdf1-2cbf-4030-b24d-0b66ca84ce48
+2026-07-31 13:21:13,606 INFO status has been updated to accepted
+2026-07-31 13:21:47,224 INFO status has been updated to running
+2026-07-31 13:22:30,100 INFO status has been updated to successful
+cab4beae4193ebe8387361ae2a1f85b6.nc:   0%|          | 0.00/50.8k [00:00<?, ?B/s]cab4beae4193ebe8387361ae2a1f85b6.nc: 100%|##########| 50.8k/50.8k [00:00<00:00, 234kB/s]                                                                                        [14/180] build_up_index 1992 -> data\raw_fwi\build_up_index_1992.nc
+2026-07-31 13:22:34,658 INFO Request ID is 566b789c-ba28-426c-95cb-6e435eeb13c5
+2026-07-31 13:22:34,731 INFO status has been updated to accepted
+2026-07-31 13:22:55,924 INFO status has been updated to running
+2026-07-31 13:23:24,542 INFO status has been updated to successful
+915301f604544029add51781d460f9cf.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]915301f604544029add51781d460f9cf.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 204kB/s]                                                                                        [15/180] initial_fire_spread_index 1992 -> data\raw_fwi\initial_fire_spread_index_1992.nc
+2026-07-31 13:23:25,473 INFO Request ID is 10aa1a1d-0530-4862-9d81-60205caee97e
+2026-07-31 13:23:25,544 INFO status has been updated to accepted
+2026-07-31 13:23:47,327 INFO status has been updated to running
+2026-07-31 13:23:58,786 INFO status has been updated to successful
+f92c8938f7238eddff2350f651172467.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]f92c8938f7238eddff2350f651172467.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 237kB/s]                                                                                        [16/180] fire_weather_index 1993 -> data\raw_fwi\fire_weather_index_1993.nc
+2026-07-31 13:23:59,710 INFO Request ID is 045a4a27-6561-4841-b243-808f78a20e90
+2026-07-31 13:23:59,767 INFO status has been updated to accepted
+2026-07-31 13:24:21,250 INFO status has been updated to running
+2026-07-31 13:24:49,896 INFO status has been updated to successful
+627bd00c7170c5e2c1d513c0886e2b3c.nc:   0%|          | 0.00/53.2k [00:00<?, ?B/s]627bd00c7170c5e2c1d513c0886e2b3c.nc: 100%|##########| 53.2k/53.2k [00:00<00:00, 241kB/s]                                                                                        [17/180] drought_code 1993 -> data\raw_fwi\drought_code_1993.nc
+2026-07-31 13:24:50,588 INFO Request ID is 8b3e6eae-0724-41cb-874f-6a51021fd3e7
+2026-07-31 13:24:50,887 INFO status has been updated to accepted
+2026-07-31 13:25:12,137 INFO status has been updated to running
+2026-07-31 13:25:40,752 INFO status has been updated to successful
+fbdd52bb66f0ad3e4d3b7c833d365cf6.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]fbdd52bb66f0ad3e4d3b7c833d365cf6.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 181kB/s]                                                                                        [18/180] fine_fuel_moisture_code 1993 -> data\raw_fwi\fine_fuel_moisture_code_1993.nc
+2026-07-31 13:25:43,542 INFO Request ID is 74480fc7-68d9-4a4d-8520-a7a9d6318e97
+2026-07-31 13:25:43,673 INFO status has been updated to accepted
+2026-07-31 13:26:05,094 INFO status has been updated to running
+2026-07-31 13:26:16,560 INFO status has been updated to accepted
+2026-07-31 13:26:33,719 INFO status has been updated to running
+2026-07-31 13:26:59,428 INFO status has been updated to successful
+cb21ce64ccdccf8874542ebca3bb293.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]cb21ce64ccdccf8874542ebca3bb293.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 206kB/s]                                                                                       [19/180] build_up_index 1993 -> data\raw_fwi\build_up_index_1993.nc
+2026-07-31 13:27:02,252 INFO Request ID is 5b1fc5cf-a156-4f97-b8c8-2aa8fa23afb7
+2026-07-31 13:27:02,324 INFO status has been updated to accepted
+2026-07-31 13:27:17,899 INFO status has been updated to running
+2026-07-31 13:27:37,300 INFO status has been updated to successful
+5c84fb911cd97b28a228f1ab97293549.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]5c84fb911cd97b28a228f1ab97293549.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 202kB/s]                                                                                        [20/180] initial_fire_spread_index 1993 -> data\raw_fwi\initial_fire_spread_index_1993.nc
+2026-07-31 13:27:39,193 INFO Request ID is b84b4012-6d76-4963-9a48-5b64a0949b6e
+2026-07-31 13:27:39,273 INFO status has been updated to accepted
+2026-07-31 13:28:01,816 INFO status has been updated to running
+2026-07-31 13:28:32,537 INFO status has been updated to successful
+c486276ce937cb72dc27c625638475e3.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]c486276ce937cb72dc27c625638475e3.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 229kB/s]                                                                                        [21/180] fire_weather_index 1994 -> data\raw_fwi\fire_weather_index_1994.nc
+2026-07-31 13:28:33,331 INFO Request ID is 3b4adc31-7acb-4bfa-b297-5777e529923f
+2026-07-31 13:28:33,402 INFO status has been updated to accepted
+2026-07-31 13:28:55,862 INFO status has been updated to running
+2026-07-31 13:29:07,338 INFO status has been updated to successful
+7f79bdd5f5704094160ac4fee3cc9e83.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]7f79bdd5f5704094160ac4fee3cc9e83.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 258kB/s]                                                                                        [22/180] drought_code 1994 -> data\raw_fwi\drought_code_1994.nc
+2026-07-31 13:29:08,055 INFO Request ID is ec0e863d-cf42-49a6-84d4-f8947b2097e5
+2026-07-31 13:29:08,111 INFO status has been updated to accepted
+2026-07-31 13:29:31,296 INFO status has been updated to running
+2026-07-31 13:30:25,633 INFO status has been updated to successful
+3249d5ee524d5ec3f51707c9c5d3d1dc.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]3249d5ee524d5ec3f51707c9c5d3d1dc.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 209kB/s]                                                                                        [23/180] fine_fuel_moisture_code 1994 -> data\raw_fwi\fine_fuel_moisture_code_1994.nc
+2026-07-31 13:30:26,466 INFO Request ID is dc340749-37aa-4836-b005-e23b4ed7c674
+2026-07-31 13:30:26,768 INFO status has been updated to accepted
+2026-07-31 13:30:40,656 INFO status has been updated to running
+2026-07-31 13:31:16,913 INFO status has been updated to successful
+d0472389614606ed1961544f22e3dad0.nc:   0%|          | 0.00/50.8k [00:00<?, ?B/s]d0472389614606ed1961544f22e3dad0.nc: 100%|##########| 50.8k/50.8k [00:00<00:00, 223kB/s]                                                                                        [24/180] build_up_index 1994 -> data\raw_fwi\build_up_index_1994.nc
+2026-07-31 13:31:17,644 INFO Request ID is 087b95fe-b32b-4d5d-afad-eaa931662f49
+2026-07-31 13:31:17,716 INFO status has been updated to accepted
+2026-07-31 13:31:38,943 INFO status has been updated to running
+2026-07-31 13:32:07,663 INFO status has been updated to successful
+914afcfca15597e6c8e2fb93930a213d.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]914afcfca15597e6c8e2fb93930a213d.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 226kB/s]                                                                                        [25/180] initial_fire_spread_index 1994 -> data\raw_fwi\initial_fire_spread_index_1994.nc
+2026-07-31 13:32:08,977 INFO Request ID is 2d8b8cd6-300a-43b4-9ead-34321ebb556e
+2026-07-31 13:32:09,031 INFO status has been updated to accepted
+2026-07-31 13:32:42,300 INFO status has been updated to running
+2026-07-31 13:32:59,444 INFO status has been updated to successful
+a416eabc629af95ec0d5b91679f57930.nc:   0%|          | 0.00/52.4k [00:00<?, ?B/s]a416eabc629af95ec0d5b91679f57930.nc: 100%|##########| 52.4k/52.4k [00:00<00:00, 242kB/s]                                                                                        [26/180] fire_weather_index 1995 -> data\raw_fwi\fire_weather_index_1995.nc
+2026-07-31 13:33:01,186 INFO Request ID is 8e7452ba-af28-4227-949a-28f493d16bba
+2026-07-31 13:33:01,257 INFO status has been updated to accepted
+2026-07-31 13:33:33,910 INFO status has been updated to running
+2026-07-31 13:33:51,056 INFO status has been updated to successful
+483571e514ddee9fc3997d13f353dc5d.nc:   0%|          | 0.00/53.0k [00:00<?, ?B/s]483571e514ddee9fc3997d13f353dc5d.nc: 100%|##########| 53.0k/53.0k [00:00<00:00, 257kB/s]                                                                                        [27/180] drought_code 1995 -> data\raw_fwi\drought_code_1995.nc
+2026-07-31 13:33:55,029 INFO Request ID is 2bdee413-70d6-44eb-9774-df7b6a927381
+2026-07-31 13:33:55,090 INFO status has been updated to accepted
+2026-07-31 13:34:45,045 INFO status has been updated to running
+2026-07-31 13:35:49,290 INFO status has been updated to successful
+8f2f9de5c707934660f8c2bc975ef75e.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]8f2f9de5c707934660f8c2bc975ef75e.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 213kB/s]                                                                                        [28/180] fine_fuel_moisture_code 1995 -> data\raw_fwi\fine_fuel_moisture_code_1995.nc
+2026-07-31 13:35:50,235 INFO Request ID is 263d190d-907e-4a59-aa75-7384ca66df6c
+2026-07-31 13:35:50,309 INFO status has been updated to accepted
+2026-07-31 13:36:12,668 INFO status has been updated to running
+2026-07-31 13:36:41,268 INFO status has been updated to successful
+95256f7071c9ba1028c36c9c10933840.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]95256f7071c9ba1028c36c9c10933840.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 229kB/s]                                                                                        [29/180] build_up_index 1995 -> data\raw_fwi\build_up_index_1995.nc
+2026-07-31 13:36:42,325 INFO Request ID is 8382cf6b-5bc7-4025-938d-0de5b20765f1
+2026-07-31 13:36:42,379 INFO status has been updated to accepted
+2026-07-31 13:37:34,286 INFO status has been updated to running
+2026-07-31 13:38:40,651 INFO status has been updated to successful
+af6615f6d4cd31d5ac02ae66b218ab3f.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]af6615f6d4cd31d5ac02ae66b218ab3f.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 221kB/s]                                                                                        [30/180] initial_fire_spread_index 1995 -> data\raw_fwi\initial_fire_spread_index_1995.nc
+2026-07-31 13:38:42,616 INFO Request ID is 7ad1385b-c2c6-49d5-8190-7d63df2e45fc
+2026-07-31 13:38:42,704 INFO status has been updated to accepted
+2026-07-31 13:38:57,145 INFO status has been updated to running
+2026-07-31 13:40:37,707 INFO status has been updated to successful
+88d983812f071987332f9c00871091bb.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]88d983812f071987332f9c00871091bb.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 204kB/s]                                                                                        [31/180] fire_weather_index 1996 -> data\raw_fwi\fire_weather_index_1996.nc
+2026-07-31 13:40:39,267 INFO Request ID is ba8f3338-2d0a-4b93-aeb1-c3b5d014fdb6
+2026-07-31 13:40:39,340 INFO status has been updated to accepted
+2026-07-31 13:41:01,006 INFO status has been updated to running
+2026-07-31 13:41:55,349 INFO status has been updated to successful
+6767a1ae425546bf095badd52fa3451c.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]6767a1ae425546bf095badd52fa3451c.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 234kB/s]                                                                                        [32/180] drought_code 1996 -> data\raw_fwi\drought_code_1996.nc
+2026-07-31 13:41:56,155 INFO Request ID is 8c1602a4-56f7-4bfe-b139-925a4d11e196
+2026-07-31 13:41:56,235 INFO status has been updated to accepted
+2026-07-31 13:42:17,587 INFO status has been updated to running
+2026-07-31 13:43:55,596 INFO status has been updated to successful
+1221a5ff70489e1fa5df7b0611a2a874.nc:   0%|          | 0.00/51.8k [00:00<?, ?B/s]1221a5ff70489e1fa5df7b0611a2a874.nc: 100%|##########| 51.8k/51.8k [00:00<00:00, 223kB/s]                                                                                        [33/180] fine_fuel_moisture_code 1996 -> data\raw_fwi\fine_fuel_moisture_code_1996.nc
+2026-07-31 13:43:56,377 INFO Request ID is 0899b09d-1d7f-4f36-a691-33896caebd54
+2026-07-31 13:43:56,450 INFO status has been updated to accepted
+2026-07-31 13:44:17,781 INFO status has been updated to running
+2026-07-31 13:45:12,138 INFO status has been updated to successful
+9e0bf579e4cdc475bce57f468932ce08.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]9e0bf579e4cdc475bce57f468932ce08.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 196kB/s]                                                                                        [34/180] build_up_index 1996 -> data\raw_fwi\build_up_index_1996.nc
+2026-07-31 13:45:12,965 INFO Request ID is c930e869-7015-4405-904c-7ee346eefc16
+2026-07-31 13:45:13,042 INFO status has been updated to accepted
+2026-07-31 13:45:34,264 INFO status has been updated to running
+2026-07-31 13:51:32,018 INFO status has been updated to successful
+c436873c8c725ba0fed49f642c9571f4.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]c436873c8c725ba0fed49f642c9571f4.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 215kB/s]                                                                                        [35/180] initial_fire_spread_index 1996 -> data\raw_fwi\initial_fire_spread_index_1996.nc
+2026-07-31 13:51:32,938 INFO Request ID is 3feec8f3-c4ea-41f7-bad5-770e7d3844d3
+2026-07-31 13:51:32,995 INFO status has been updated to accepted
+2026-07-31 13:51:55,760 INFO status has been updated to running
+2026-07-31 13:55:53,323 INFO status has been updated to successful
+dddb65453cd393904c3ccca4f3af8147.nc:   0%|          | 0.00/53.2k [00:00<?, ?B/s]dddb65453cd393904c3ccca4f3af8147.nc: 100%|##########| 53.2k/53.2k [00:00<00:00, 224kB/s]                                                                                        [36/180] fire_weather_index 1997 -> data\raw_fwi\fire_weather_index_1997.nc
+2026-07-31 13:55:54,195 INFO Request ID is 5b8b6751-1bd9-49ca-af23-535197836889
+2026-07-31 13:55:54,285 INFO status has been updated to accepted
+2026-07-31 13:56:15,485 INFO status has been updated to running
+2026-07-31 13:58:46,203 INFO status has been updated to successful
+ce5d66210529531dd03da84e63c5432b.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]ce5d66210529531dd03da84e63c5432b.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 196kB/s]                                                                                        [37/180] drought_code 1997 -> data\raw_fwi\drought_code_1997.nc
+2026-07-31 13:58:47,440 INFO Request ID is 91428426-cb57-495b-8ac8-0f5ca0d19c77
+2026-07-31 13:58:47,512 INFO status has been updated to accepted
+2026-07-31 13:59:12,511 INFO status has been updated to running
+2026-07-31 14:00:45,515 INFO status has been updated to successful
+e038b09a47a3beccdb3427dc11a59447.nc:   0%|          | 0.00/52.1k [00:00<?, ?B/s]e038b09a47a3beccdb3427dc11a59447.nc: 100%|##########| 52.1k/52.1k [00:00<00:00, 211kB/s]                                                                                        [38/180] fine_fuel_moisture_code 1997 -> data\raw_fwi\fine_fuel_moisture_code_1997.nc
+2026-07-31 14:00:46,466 INFO Request ID is 7c059275-1338-4395-be26-31c39bc8d1b9
+2026-07-31 14:00:46,678 INFO status has been updated to accepted
+2026-07-31 14:01:21,269 INFO status has been updated to running
+2026-07-31 14:02:04,623 INFO status has been updated to successful
+b0e924224f51fff3207585cf57b84b47.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]b0e924224f51fff3207585cf57b84b47.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 244kB/s]                                                                                        [39/180] build_up_index 1997 -> data\raw_fwi\build_up_index_1997.nc
+2026-07-31 14:02:05,445 INFO Request ID is 6c422576-905f-4899-a1fd-5cda0f9b24b2
+2026-07-31 14:02:05,509 INFO status has been updated to accepted
+2026-07-31 14:02:38,143 INFO status has been updated to running
+2026-07-31 14:04:00,694 INFO status has been updated to successful
+44101591b1060bf364119c5508eea54a.nc:   0%|          | 0.00/51.5k [00:00<?, ?B/s]44101591b1060bf364119c5508eea54a.nc: 100%|##########| 51.5k/51.5k [00:00<00:00, 195kB/s]                                                                                        [40/180] initial_fire_spread_index 1997 -> data\raw_fwi\initial_fire_spread_index_1997.nc
+2026-07-31 14:04:02,511 INFO Request ID is d499218e-a36c-4c0f-b527-48e1a5e3294a
+2026-07-31 14:04:03,116 INFO status has been updated to accepted
+2026-07-31 14:04:38,147 INFO status has been updated to running
+2026-07-31 14:05:21,339 INFO status has been updated to successful
+a6aaf13662fee24431412639dbb2e736.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]a6aaf13662fee24431412639dbb2e736.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 239kB/s]                                                                                        [41/180] fire_weather_index 1998 -> data\raw_fwi\fire_weather_index_1998.nc
+2026-07-31 14:05:22,187 INFO Request ID is 6a8e9c81-2223-4962-bf03-248e835ceb6a
+2026-07-31 14:05:22,481 INFO status has been updated to accepted
+2026-07-31 14:06:12,753 INFO status has been updated to running
+2026-07-31 14:11:48,352 INFO status has been updated to successful
+f4e89668e4f409cf8cd7762156ff8356.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]f4e89668e4f409cf8cd7762156ff8356.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 208kB/s]                                                                                        [42/180] drought_code 1998 -> data\raw_fwi\drought_code_1998.nc
+2026-07-31 14:11:49,188 INFO Request ID is d8bf801f-31b7-4203-9474-03f5db1243b3
+2026-07-31 14:11:49,271 INFO status has been updated to accepted
+2026-07-31 14:12:39,193 INFO status has been updated to running
+2026-07-31 14:13:43,501 INFO status has been updated to successful
+c9f4e8d19afc0fff671499abff39df7c.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]c9f4e8d19afc0fff671499abff39df7c.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 210kB/s]                                                                                        [43/180] fine_fuel_moisture_code 1998 -> data\raw_fwi\fine_fuel_moisture_code_1998.nc
+2026-07-31 14:13:44,325 INFO Request ID is 1c792190-38a4-43bd-8208-eba989311828
+2026-07-31 14:13:44,387 INFO status has been updated to accepted
+2026-07-31 14:14:05,626 INFO status has been updated to running
+2026-07-31 14:16:36,507 INFO status has been updated to successful
+37c78966fe1cc3ab06c484e243c73967.nc:   0%|          | 0.00/50.7k [00:00<?, ?B/s]37c78966fe1cc3ab06c484e243c73967.nc: 100%|##########| 50.7k/50.7k [00:00<00:00, 227kB/s]                                                                                        [44/180] build_up_index 1998 -> data\raw_fwi\build_up_index_1998.nc
+2026-07-31 14:16:37,389 INFO Request ID is a4bfb640-5334-46aa-a107-c7af4ded6916
+2026-07-31 14:16:37,460 INFO status has been updated to accepted
+2026-07-31 14:17:11,371 INFO status has been updated to running
+2026-07-31 14:17:54,240 INFO status has been updated to successful
+81e8d83447e8b47fa52b84479164ec39.nc:   0%|          | 0.00/51.5k [00:00<?, ?B/s]81e8d83447e8b47fa52b84479164ec39.nc: 100%|##########| 51.5k/51.5k [00:00<00:00, 243kB/s]                                                                                        [45/180] initial_fire_spread_index 1998 -> data\raw_fwi\initial_fire_spread_index_1998.nc
+2026-07-31 14:17:57,319 INFO Request ID is d7957b60-1b2f-4818-b93c-f9ebe8d556ec
+2026-07-31 14:17:57,376 INFO status has been updated to accepted
+2026-07-31 14:18:30,064 INFO status has been updated to running
+2026-07-31 14:19:51,775 INFO status has been updated to successful
+efbeed266db9b6fac4ef801aa7930117.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]efbeed266db9b6fac4ef801aa7930117.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 186kB/s]                                                                                        [46/180] fire_weather_index 1999 -> data\raw_fwi\fire_weather_index_1999.nc
+2026-07-31 14:19:52,597 INFO Request ID is 94c9e8f0-4b3a-4e14-b1fa-d222e283d6bc
+2026-07-31 14:19:52,666 INFO status has been updated to accepted
+2026-07-31 14:20:13,815 INFO status has been updated to running
+2026-07-31 14:21:08,177 INFO status has been updated to successful
+bda7e49a7b786ffa21dd1e22acfde21c.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]bda7e49a7b786ffa21dd1e22acfde21c.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 232kB/s]                                                                                        [47/180] drought_code 1999 -> data\raw_fwi\drought_code_1999.nc
+2026-07-31 14:21:09,264 INFO Request ID is 56663110-461d-4d60-ab58-c446e6b43977
+2026-07-31 14:21:09,321 INFO status has been updated to accepted
+2026-07-31 14:21:30,529 INFO status has been updated to running
+2026-07-31 14:24:01,317 INFO status has been updated to successful
+b6bdedfb80a33c12fda402e58570ed9f.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]b6bdedfb80a33c12fda402e58570ed9f.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 158kB/s]                                                                                        [48/180] fine_fuel_moisture_code 1999 -> data\raw_fwi\fine_fuel_moisture_code_1999.nc
+2026-07-31 14:24:02,373 INFO Request ID is 01914ce5-d344-42af-9f41-6284aa5759db
+2026-07-31 14:24:02,468 INFO status has been updated to accepted
+2026-07-31 14:24:37,328 INFO status has been updated to running
+2026-07-31 14:25:20,314 INFO status has been updated to successful
+2e953806bcf1c4bc36705c9525622b2b.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]2e953806bcf1c4bc36705c9525622b2b.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 209kB/s]                                                                                        [49/180] build_up_index 1999 -> data\raw_fwi\build_up_index_1999.nc
+2026-07-31 14:25:21,186 INFO Request ID is 86b8cc69-5541-4531-bbf8-0899bd03b7b3
+2026-07-31 14:25:22,479 INFO status has been updated to accepted
+2026-07-31 14:25:43,738 INFO status has been updated to running
+2026-07-31 14:26:39,149 INFO status has been updated to successful
+47c822fcdbffe2b0b3434228abb2109f.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]47c822fcdbffe2b0b3434228abb2109f.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 196kB/s]                                                                                        [50/180] initial_fire_spread_index 1999 -> data\raw_fwi\initial_fire_spread_index_1999.nc
+2026-07-31 14:26:41,503 INFO Request ID is 52f7882c-d0fb-4a0e-ba4b-38222e0e3711
+2026-07-31 14:26:42,705 INFO status has been updated to accepted
+2026-07-31 14:26:56,854 INFO status has been updated to running
+2026-07-31 14:27:36,082 INFO status has been updated to successful
+cea5b325fb216832f56f6f6a3d4ca8ba.nc:   0%|          | 0.00/52.5k [00:00<?, ?B/s]cea5b325fb216832f56f6f6a3d4ca8ba.nc: 100%|##########| 52.5k/52.5k [00:00<00:00, 231kB/s]                                                                                        [51/180] fire_weather_index 2000 -> data\raw_fwi\fire_weather_index_2000.nc
+2026-07-31 14:27:36,937 INFO Request ID is 51a2e876-989c-45e2-b715-9a83524055b4
+2026-07-31 14:27:37,011 INFO status has been updated to accepted
+2026-07-31 14:27:59,237 INFO status has been updated to running
+2026-07-31 14:29:32,526 INFO status has been updated to successful
+c1b13be1dae0b8c2fac7261ab4565df9.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]c1b13be1dae0b8c2fac7261ab4565df9.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 208kB/s]                                                                                        [52/180] drought_code 2000 -> data\raw_fwi\drought_code_2000.nc
+2026-07-31 14:29:35,019 INFO Request ID is fed4bb57-a5a5-4989-b92c-812947e28c81
+2026-07-31 14:29:37,625 INFO status has been updated to accepted
+2026-07-31 14:29:58,821 INFO status has been updated to running
+2026-07-31 14:30:53,326 INFO status has been updated to successful
+6156daaa60d9f9f6162a1c105a3afe68.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]6156daaa60d9f9f6162a1c105a3afe68.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 154kB/s]                                                                                        [53/180] fine_fuel_moisture_code 2000 -> data\raw_fwi\fine_fuel_moisture_code_2000.nc
+2026-07-31 14:30:54,592 INFO Request ID is 95537442-c330-47bf-b24b-b40575f214fe
+2026-07-31 14:30:54,689 INFO status has been updated to accepted
+2026-07-31 14:31:18,894 INFO status has been updated to running
+2026-07-31 14:32:13,294 INFO status has been updated to successful
+2aaedecfc3246ee85eba30e59f822803.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]2aaedecfc3246ee85eba30e59f822803.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 235kB/s]                                                                                        [54/180] build_up_index 2000 -> data\raw_fwi\build_up_index_2000.nc
+2026-07-31 14:32:14,506 INFO Request ID is cada7eec-14a5-49e5-b5f9-70e68f8a0aef
+2026-07-31 14:32:14,570 INFO status has been updated to accepted
+2026-07-31 14:32:38,224 INFO status has been updated to running
+2026-07-31 14:33:07,447 INFO status has been updated to successful
+56015b3d90c1ed27aa575bccf50ec3e9.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]56015b3d90c1ed27aa575bccf50ec3e9.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 222kB/s]                                                                                        [55/180] initial_fire_spread_index 2000 -> data\raw_fwi\initial_fire_spread_index_2000.nc
+2026-07-31 14:33:08,365 INFO Request ID is 0c60cc9b-4d42-4cef-8a3b-d669190cd4f1
+2026-07-31 14:33:08,426 INFO status has been updated to accepted
+2026-07-31 14:33:29,666 INFO status has been updated to running
+2026-07-31 14:34:24,922 INFO status has been updated to successful
+c11fb1d22606d2024b96bf0d0b9d1b46.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]c11fb1d22606d2024b96bf0d0b9d1b46.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 190kB/s]                                                                                        [56/180] fire_weather_index 2001 -> data\raw_fwi\fire_weather_index_2001.nc
+2026-07-31 14:34:25,762 INFO Request ID is 40db2c8e-2a01-43eb-9282-9f38ae65c70e
+2026-07-31 14:34:25,931 INFO status has been updated to accepted
+2026-07-31 14:34:47,634 INFO status has been updated to running
+2026-07-31 14:35:16,267 INFO status has been updated to successful
+c8c2b7f19758a188862fd0b99a742fb5.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]c8c2b7f19758a188862fd0b99a742fb5.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 237kB/s]                                                                                        [57/180] drought_code 2001 -> data\raw_fwi\drought_code_2001.nc
+2026-07-31 14:35:17,050 INFO Request ID is 893ed66b-cb4c-4038-8a4f-6988e01dcf16
+2026-07-31 14:35:17,129 INFO status has been updated to accepted
+2026-07-31 14:35:38,302 INFO status has been updated to running
+2026-07-31 14:36:32,802 INFO status has been updated to successful
+1144fd3409ced568353db01481ff8e65.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]1144fd3409ced568353db01481ff8e65.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 222kB/s]                                                                                        [58/180] fine_fuel_moisture_code 2001 -> data\raw_fwi\fine_fuel_moisture_code_2001.nc
+2026-07-31 14:36:35,073 INFO Request ID is cf5504ea-8c29-4f4f-87a8-097b36180aa4
+2026-07-31 14:36:35,127 INFO status has been updated to accepted
+2026-07-31 14:36:56,306 INFO status has been updated to running
+2026-07-31 14:37:25,215 INFO status has been updated to successful
+32f98134a0c64c5ca6583c21e7ea291e.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]32f98134a0c64c5ca6583c21e7ea291e.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 189kB/s]                                                                                        [59/180] build_up_index 2001 -> data\raw_fwi\build_up_index_2001.nc
+2026-07-31 14:37:26,057 INFO Request ID is 156ab18f-ea8c-4df2-98ca-8691331edb5e
+2026-07-31 14:37:26,594 INFO status has been updated to accepted
+2026-07-31 14:37:49,603 INFO status has been updated to running
+2026-07-31 14:38:18,325 INFO status has been updated to successful
+a05e5237fa0f345a6d811cd3dc8012f0.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]a05e5237fa0f345a6d811cd3dc8012f0.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 205kB/s]                                                                                        [60/180] initial_fire_spread_index 2001 -> data\raw_fwi\initial_fire_spread_index_2001.nc
+2026-07-31 14:38:19,835 INFO Request ID is de3b1eb1-a8a0-4955-a4fa-6864d6cd0060
+2026-07-31 14:38:19,887 INFO status has been updated to accepted
+2026-07-31 14:39:09,943 INFO status has been updated to running
+2026-07-31 14:40:14,169 INFO status has been updated to successful
+4e6490f6baf826d62f25642596d65ba7.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]4e6490f6baf826d62f25642596d65ba7.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 236kB/s]                                                                                        [61/180] fire_weather_index 2002 -> data\raw_fwi\fire_weather_index_2002.nc
+2026-07-31 14:40:20,877 INFO Request ID is dd6060dd-0676-4c37-95f4-e6f4ce733479
+2026-07-31 14:40:20,972 INFO status has been updated to accepted
+2026-07-31 14:40:34,633 INFO status has been updated to running
+2026-07-31 14:41:36,602 INFO status has been updated to successful
+a2af8db0189b60aa5920c00c70d03f15.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]a2af8db0189b60aa5920c00c70d03f15.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 226kB/s]                                                                                        [62/180] drought_code 2002 -> data\raw_fwi\drought_code_2002.nc
+2026-07-31 14:41:37,628 INFO Request ID is 036d0518-fcd3-4db7-9773-dd1eed708dde
+2026-07-31 14:41:37,779 INFO status has been updated to accepted
+2026-07-31 14:42:00,865 INFO status has been updated to running
+2026-07-31 14:42:55,160 INFO status has been updated to successful
+3a42db5dd0d8aabdffc84f35937db554.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]3a42db5dd0d8aabdffc84f35937db554.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 212kB/s]                                                                                        [63/180] fine_fuel_moisture_code 2002 -> data\raw_fwi\fine_fuel_moisture_code_2002.nc
+2026-07-31 14:42:56,361 INFO Request ID is 323c95f0-52c6-4499-b4ee-ca1852ba1465
+2026-07-31 14:42:56,435 INFO status has been updated to accepted
+2026-07-31 14:43:17,952 INFO status has been updated to running
+2026-07-31 14:43:46,561 INFO status has been updated to successful
+2d167c2e9c51b61ad73521da5eb31c90.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]2d167c2e9c51b61ad73521da5eb31c90.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 262kB/s]                                                                                        [64/180] build_up_index 2002 -> data\raw_fwi\build_up_index_2002.nc
+2026-07-31 14:43:47,649 INFO Request ID is f596de7f-f665-4fec-a1aa-25246a3445b8
+2026-07-31 14:43:47,703 INFO status has been updated to accepted
+2026-07-31 14:44:09,174 INFO status has been updated to running
+2026-07-31 14:45:04,619 INFO status has been updated to successful
+8890ccd1be60389d18f13aeae3df89db.nc:   0%|          | 0.00/52.0k [00:00<?, ?B/s]8890ccd1be60389d18f13aeae3df89db.nc: 100%|##########| 52.0k/52.0k [00:00<00:00, 230kB/s]                                                                                        [65/180] initial_fire_spread_index 2002 -> data\raw_fwi\initial_fire_spread_index_2002.nc
+2026-07-31 14:45:06,049 INFO Request ID is c35a19f6-a4c4-43e9-b34f-8732f1f968e9
+2026-07-31 14:45:06,116 INFO status has been updated to accepted
+2026-07-31 14:45:31,500 INFO status has been updated to running
+2026-07-31 14:46:00,089 INFO status has been updated to successful
+ad32f739c0192601eac198283665ecba.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]ad32f739c0192601eac198283665ecba.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 212kB/s]                                                                                        [66/180] fire_weather_index 2003 -> data\raw_fwi\fire_weather_index_2003.nc
+2026-07-31 14:46:01,511 INFO Request ID is 2fca9c65-8187-4cb5-b0dd-19373fb52e51
+2026-07-31 14:46:01,581 INFO status has been updated to accepted
+2026-07-31 14:46:23,059 INFO status has been updated to running
+2026-07-31 14:46:51,703 INFO status has been updated to successful
+8469356f79dadd8659b5b7778261efeb.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]8469356f79dadd8659b5b7778261efeb.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 217kB/s]                                                                                        [67/180] drought_code 2003 -> data\raw_fwi\drought_code_2003.nc
+2026-07-31 14:46:55,932 INFO Request ID is 41ffd0dc-b67f-4b84-a44b-897d3848c734
+2026-07-31 14:46:56,004 INFO status has been updated to accepted
+2026-07-31 14:47:32,572 INFO status has been updated to running
+2026-07-31 14:48:15,433 INFO status has been updated to successful
+ad838b2ebf040898c81716e416c93970.nc:   0%|          | 0.00/52.3k [00:00<?, ?B/s]ad838b2ebf040898c81716e416c93970.nc: 100%|##########| 52.3k/52.3k [00:00<00:00, 252kB/s]                                                                                        [68/180] fine_fuel_moisture_code 2003 -> data\raw_fwi\fine_fuel_moisture_code_2003.nc
+2026-07-31 14:48:16,163 INFO Request ID is 1a9b4bb3-718f-4511-aa7b-4f5de3dd3227
+2026-07-31 14:48:16,233 INFO status has been updated to accepted
+2026-07-31 14:48:50,465 INFO status has been updated to running
+2026-07-31 14:49:33,341 INFO status has been updated to successful
+b6285210479416442710c7184d04e8f0.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]b6285210479416442710c7184d04e8f0.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 226kB/s]                                                                                        [69/180] build_up_index 2003 -> data\raw_fwi\build_up_index_2003.nc
+2026-07-31 14:49:35,070 INFO Request ID is 6b98da8c-1515-4f13-bf64-0f233697cca2
+2026-07-31 14:49:36,390 INFO status has been updated to accepted
+2026-07-31 14:49:57,784 INFO status has been updated to running
+2026-07-31 14:50:54,643 INFO status has been updated to successful
+67a82cc0d341f28e1f91d1cb644e96eb.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]67a82cc0d341f28e1f91d1cb644e96eb.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 216kB/s]                                                                                        [70/180] initial_fire_spread_index 2003 -> data\raw_fwi\initial_fire_spread_index_2003.nc
+2026-07-31 14:50:56,104 INFO Request ID is d0cbe200-23c9-4dc6-a378-c88171e011f8
+2026-07-31 14:50:56,183 INFO status has been updated to accepted
+2026-07-31 14:51:30,186 INFO status has been updated to running
+2026-07-31 14:52:13,051 INFO status has been updated to successful
+ed65c533ac61c8795886840af1b87bcc.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]ed65c533ac61c8795886840af1b87bcc.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 233kB/s]                                                                                        [71/180] fire_weather_index 2004 -> data\raw_fwi\fire_weather_index_2004.nc
+2026-07-31 14:52:14,792 INFO Request ID is 90ba9cba-e6ee-4bd5-8851-df00a6adf3d8
+2026-07-31 14:52:14,865 INFO status has been updated to accepted
+2026-07-31 14:52:47,694 INFO status has been updated to running
+2026-07-31 14:53:30,568 INFO status has been updated to successful
+a7cf02bac0f8a79a18055187a072d881.nc:   0%|          | 0.00/53.0k [00:00<?, ?B/s]a7cf02bac0f8a79a18055187a072d881.nc: 100%|##########| 53.0k/53.0k [00:00<00:00, 229kB/s]                                                                                        [72/180] drought_code 2004 -> data\raw_fwi\drought_code_2004.nc
+2026-07-31 14:53:32,251 INFO Request ID is 996fc50b-1f64-4497-bead-632c57e62627
+2026-07-31 14:53:32,333 INFO status has been updated to accepted
+2026-07-31 14:54:05,530 INFO status has been updated to running
+2026-07-31 14:55:26,920 INFO status has been updated to successful
+2e83c25c712a85433f4f9e35fbf07261.nc:   0%|          | 0.00/51.9k [00:00<?, ?B/s]2e83c25c712a85433f4f9e35fbf07261.nc: 100%|##########| 51.9k/51.9k [00:00<00:00, 222kB/s]                                                                                        [73/180] fine_fuel_moisture_code 2004 -> data\raw_fwi\fine_fuel_moisture_code_2004.nc
+2026-07-31 14:55:27,735 INFO Request ID is 1a67721d-dc92-4f13-944e-6073f6e2ed91
+2026-07-31 14:55:27,803 INFO status has been updated to accepted
+2026-07-31 14:55:49,280 INFO status has been updated to running
+2026-07-31 14:56:43,710 INFO status has been updated to successful
+1d9eaef41b0ccc0bbecc953908da01d7.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]1d9eaef41b0ccc0bbecc953908da01d7.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 192kB/s]                                                                                        [74/180] build_up_index 2004 -> data\raw_fwi\build_up_index_2004.nc
+2026-07-31 14:56:44,531 INFO Request ID is 801f0429-6fe7-40cd-9c09-0eb177db7df2
+2026-07-31 14:56:44,603 INFO status has been updated to accepted
+2026-07-31 14:57:17,414 INFO status has been updated to running
+2026-07-31 14:58:00,263 INFO status has been updated to successful
+4f9d5223e8f30cfe1aea8bccf29779aa.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]4f9d5223e8f30cfe1aea8bccf29779aa.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 209kB/s]                                                                                        [75/180] initial_fire_spread_index 2004 -> data\raw_fwi\initial_fire_spread_index_2004.nc
+2026-07-31 14:58:01,134 INFO Request ID is 8a77f223-f142-4ede-a90e-43fee6b25266
+2026-07-31 14:58:01,193 INFO status has been updated to accepted
+2026-07-31 14:58:25,669 INFO status has been updated to running
+2026-07-31 14:58:37,131 INFO status has been updated to successful
+7d55e1813cbfa8f4da44968c3519736.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]7d55e1813cbfa8f4da44968c3519736.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 209kB/s]                                                                                       [76/180] fire_weather_index 2005 -> data\raw_fwi\fire_weather_index_2005.nc
+2026-07-31 14:58:37,995 INFO Request ID is 39fa09cf-1352-44dd-a047-50c9a0226aae
+2026-07-31 14:58:38,070 INFO status has been updated to accepted
+2026-07-31 14:58:59,762 INFO status has been updated to running
+2026-07-31 14:59:54,696 INFO status has been updated to successful
+40a06e10a2bb029991de10aac073383d.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]40a06e10a2bb029991de10aac073383d.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 196kB/s]                                                                                        [77/180] drought_code 2005 -> data\raw_fwi\drought_code_2005.nc
+2026-07-31 14:59:55,535 INFO Request ID is f060e373-e1cf-4bfe-87d4-c0a37c0165b8
+2026-07-31 14:59:56,802 INFO status has been updated to accepted
+2026-07-31 15:00:17,962 INFO status has been updated to running
+2026-07-31 15:00:46,616 INFO status has been updated to successful
+af3546c2d7e0e0bfaa3bfb3c3763dee4.nc:   0%|          | 0.00/52.4k [00:00<?, ?B/s]af3546c2d7e0e0bfaa3bfb3c3763dee4.nc: 100%|##########| 52.4k/52.4k [00:00<00:00, 228kB/s]                                                                                        [78/180] fine_fuel_moisture_code 2005 -> data\raw_fwi\fine_fuel_moisture_code_2005.nc
+2026-07-31 15:00:47,370 INFO Request ID is f56ec690-9b77-4556-b877-fc728ac166e6
+2026-07-31 15:00:47,428 INFO status has been updated to accepted
+2026-07-31 15:01:20,074 INFO status has been updated to running
+2026-07-31 15:02:04,430 INFO status has been updated to successful
+fd481dbdd76fe066f5ef1566d08e90c5.nc:   0%|          | 0.00/50.7k [00:00<?, ?B/s]fd481dbdd76fe066f5ef1566d08e90c5.nc: 100%|##########| 50.7k/50.7k [00:00<00:00, 215kB/s]                                                                                        [79/180] build_up_index 2005 -> data\raw_fwi\build_up_index_2005.nc
+2026-07-31 15:02:08,236 INFO Request ID is 46b7a8bb-d283-4be5-a00b-b9ecce238a1a
+2026-07-31 15:02:08,322 INFO status has been updated to accepted
+2026-07-31 15:02:41,144 INFO status has been updated to running
+2026-07-31 15:03:25,866 INFO status has been updated to successful
+5b8857184faa2b505e9c7525a12bb38c.nc:   0%|          | 0.00/52.2k [00:00<?, ?B/s]5b8857184faa2b505e9c7525a12bb38c.nc: 100%|##########| 52.2k/52.2k [00:00<00:00, 234kB/s]                                                                                        [80/180] initial_fire_spread_index 2005 -> data\raw_fwi\initial_fire_spread_index_2005.nc
+2026-07-31 15:03:28,916 INFO Request ID is 97073146-815b-4f0e-a5ca-488a1cf34e61
+2026-07-31 15:03:28,966 INFO status has been updated to accepted
+2026-07-31 15:03:50,290 INFO status has been updated to running
+2026-07-31 15:04:45,589 INFO status has been updated to successful
+b14ed4f940f4ab308948b2692bce9908.nc:   0%|          | 0.00/52.4k [00:00<?, ?B/s]b14ed4f940f4ab308948b2692bce9908.nc: 100%|##########| 52.4k/52.4k [00:00<00:00, 193kB/s]                                                                                        [81/180] fire_weather_index 2006 -> data\raw_fwi\fire_weather_index_2006.nc
+2026-07-31 15:04:46,430 INFO Request ID is 1eadf9b7-15c3-46e1-9342-39cf645444c6
+2026-07-31 15:04:46,532 INFO status has been updated to accepted
+2026-07-31 15:05:19,437 INFO status has been updated to running
+2026-07-31 15:05:36,644 INFO status has been updated to successful
+ddc1531bd19df8f170bbb97d4bf4d7f8.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]ddc1531bd19df8f170bbb97d4bf4d7f8.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 213kB/s]                                                                                        [82/180] drought_code 2006 -> data\raw_fwi\drought_code_2006.nc
+2026-07-31 15:05:38,295 INFO Request ID is e7bb1a18-7d89-4d01-885f-cbad9698d0a2
+2026-07-31 15:05:38,377 INFO status has been updated to accepted
+2026-07-31 15:06:11,495 INFO status has been updated to running
+2026-07-31 15:06:55,113 INFO status has been updated to successful
+e46daa22147ca78dd8f1815555590ae.nc:   0%|          | 0.00/51.5k [00:00<?, ?B/s]e46daa22147ca78dd8f1815555590ae.nc: 100%|##########| 51.5k/51.5k [00:00<00:00, 246kB/s]                                                                                       [83/180] fine_fuel_moisture_code 2006 -> data\raw_fwi\fine_fuel_moisture_code_2006.nc
+2026-07-31 15:06:56,006 INFO Request ID is 06cfac0d-0a0f-4432-abbf-172cd1072b8b
+2026-07-31 15:06:56,077 INFO status has been updated to accepted
+2026-07-31 15:07:29,610 INFO status has been updated to running
+2026-07-31 15:08:12,534 INFO status has been updated to successful
+36ce10d75f0d2d1afdf9ebe7e1c5a9a6.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]36ce10d75f0d2d1afdf9ebe7e1c5a9a6.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 195kB/s]                                                                                        [84/180] build_up_index 2006 -> data\raw_fwi\build_up_index_2006.nc
+2026-07-31 15:08:13,695 INFO Request ID is eb0f5591-f615-4dd2-9a2f-eaf87becc339
+2026-07-31 15:08:13,851 INFO status has been updated to accepted
+2026-07-31 15:08:48,205 INFO status has been updated to running
+2026-07-31 15:09:31,150 INFO status has been updated to successful
+273e55f666dd00029287c59a8b2e5054.nc:   0%|          | 0.00/51.8k [00:00<?, ?B/s]273e55f666dd00029287c59a8b2e5054.nc: 100%|##########| 51.8k/51.8k [00:00<00:00, 206kB/s]                                                                                        [85/180] initial_fire_spread_index 2006 -> data\raw_fwi\initial_fire_spread_index_2006.nc
+2026-07-31 15:09:34,434 INFO Request ID is a970461e-aba8-4794-8e37-2b729354d67d
+2026-07-31 15:09:34,516 INFO status has been updated to accepted
+2026-07-31 15:09:58,000 INFO status has been updated to running
+2026-07-31 15:10:28,116 INFO status has been updated to successful
+59799cdca5dd406be75798b9b75f21f9.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]59799cdca5dd406be75798b9b75f21f9.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 226kB/s]                                                                                        [86/180] fire_weather_index 2007 -> data\raw_fwi\fire_weather_index_2007.nc
+2026-07-31 15:10:29,782 INFO Request ID is 8ba4e24b-534a-4973-88b2-ed8d9a30858f
+2026-07-31 15:10:29,848 INFO status has been updated to accepted
+2026-07-31 15:10:51,127 INFO status has been updated to running
+2026-07-31 15:14:50,352 INFO status has been updated to successful
+d7dd8043b07ae5280a856968f442773a.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]d7dd8043b07ae5280a856968f442773a.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 206kB/s]                                                                                        [87/180] drought_code 2007 -> data\raw_fwi\drought_code_2007.nc
+2026-07-31 15:14:52,176 INFO Request ID is 0575cc77-8c2d-45d8-a8c6-ea91ce6d5fc0
+2026-07-31 15:14:52,257 INFO status has been updated to accepted
+2026-07-31 15:15:14,803 INFO status has been updated to running
+2026-07-31 15:15:43,418 INFO status has been updated to successful
+d2c5d59fbe0f1d845660d0fab53a6001.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]d2c5d59fbe0f1d845660d0fab53a6001.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 224kB/s]                                                                                        [88/180] fine_fuel_moisture_code 2007 -> data\raw_fwi\fine_fuel_moisture_code_2007.nc
+2026-07-31 15:15:45,334 INFO Request ID is 41f3e7ac-f9c6-41df-a4af-7312f2906b16
+2026-07-31 15:15:45,411 INFO status has been updated to accepted
+2026-07-31 15:16:06,600 INFO status has been updated to running
+2026-07-31 15:16:35,248 INFO status has been updated to successful
+f23740c220459a8d7c896988365ef693.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]f23740c220459a8d7c896988365ef693.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 222kB/s]                                                                                        [89/180] build_up_index 2007 -> data\raw_fwi\build_up_index_2007.nc
+2026-07-31 15:16:36,483 INFO Request ID is 8dbf375a-fb42-48cb-b95d-e0f56d96d1d0
+2026-07-31 15:16:36,542 INFO status has been updated to accepted
+2026-07-31 15:16:53,122 INFO status has been updated to running
+2026-07-31 15:17:12,243 INFO status has been updated to successful
+34c85ba9428652618cd95fa4335c7940.nc:   0%|          | 0.00/51.9k [00:00<?, ?B/s]34c85ba9428652618cd95fa4335c7940.nc: 100%|##########| 51.9k/51.9k [00:00<00:00, 264kB/s]                                                                                        [90/180] initial_fire_spread_index 2007 -> data\raw_fwi\initial_fire_spread_index_2007.nc
+2026-07-31 15:17:13,040 INFO Request ID is 76ad70fe-3a57-4d26-a80d-91b329d55c3a
+2026-07-31 15:17:13,120 INFO status has been updated to accepted
+2026-07-31 15:18:04,000 INFO status has been updated to running
+2026-07-31 15:19:08,237 INFO status has been updated to successful
+dc12bc30c37d26067fc923d27d8dd5fb.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]dc12bc30c37d26067fc923d27d8dd5fb.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 216kB/s]                                                                                        [91/180] fire_weather_index 2008 -> data\raw_fwi\fire_weather_index_2008.nc
+2026-07-31 15:19:11,195 INFO Request ID is e15fa46e-27da-4703-81ec-c5f8ec0a90c1
+2026-07-31 15:19:11,265 INFO status has been updated to accepted
+2026-07-31 15:19:43,959 INFO status has been updated to running
+2026-07-31 15:20:26,807 INFO status has been updated to successful
+833f25cee0409310a6b88620f2708e20.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]833f25cee0409310a6b88620f2708e20.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 229kB/s]                                                                                        [92/180] drought_code 2008 -> data\raw_fwi\drought_code_2008.nc
+2026-07-31 15:20:27,623 INFO Request ID is 94d6353a-3a1f-46b2-8c82-97ff3fd420af
+2026-07-31 15:20:27,780 INFO status has been updated to accepted
+2026-07-31 15:20:50,292 INFO status has been updated to running
+2026-07-31 15:21:18,910 INFO status has been updated to successful
+602daec96b61055edf664f99e441266a.nc:   0%|          | 0.00/51.5k [00:00<?, ?B/s]602daec96b61055edf664f99e441266a.nc: 100%|##########| 51.5k/51.5k [00:00<00:00, 234kB/s]                                                                                        [93/180] fine_fuel_moisture_code 2008 -> data\raw_fwi\fine_fuel_moisture_code_2008.nc
+2026-07-31 15:21:20,841 INFO Request ID is 280c4e46-560e-4935-8294-618d971d25ae
+2026-07-31 15:21:21,015 INFO status has been updated to accepted
+2026-07-31 15:21:42,830 INFO status has been updated to running
+2026-07-31 15:22:13,403 INFO status has been updated to successful
+7aed0f2d10200eab9a7139f041f599fd.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]7aed0f2d10200eab9a7139f041f599fd.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 211kB/s]                                                                                        [94/180] build_up_index 2008 -> data\raw_fwi\build_up_index_2008.nc
+2026-07-31 15:22:14,445 INFO Request ID is af06727c-72d5-48eb-8ccc-1f1da347e619
+2026-07-31 15:22:14,511 INFO status has been updated to accepted
+2026-07-31 15:22:35,750 INFO status has been updated to running
+2026-07-31 15:23:31,140 INFO status has been updated to successful
+73cead8254282470e212d970e3a0c477.nc:   0%|          | 0.00/51.5k [00:00<?, ?B/s]73cead8254282470e212d970e3a0c477.nc: 100%|##########| 51.5k/51.5k [00:00<00:00, 242kB/s]                                                                                        [95/180] initial_fire_spread_index 2008 -> data\raw_fwi\initial_fire_spread_index_2008.nc
+2026-07-31 15:23:32,513 INFO Request ID is f03f54ca-49f0-45d9-bfd7-3551c21ab9fd
+2026-07-31 15:23:32,620 INFO status has been updated to accepted
+2026-07-31 15:24:05,422 INFO status has been updated to running
+2026-07-31 15:24:22,569 INFO status has been updated to successful
+a9a212e9fedf3e4674cd3bad7001d15f.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]a9a212e9fedf3e4674cd3bad7001d15f.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 246kB/s]                                                                                        [96/180] fire_weather_index 2009 -> data\raw_fwi\fire_weather_index_2009.nc
+2026-07-31 15:24:24,427 INFO Request ID is cebf646a-738a-4a99-b7bb-bdfa02238e64
+2026-07-31 15:24:24,487 INFO status has been updated to accepted
+2026-07-31 15:24:57,456 INFO status has been updated to running
+2026-07-31 15:25:41,507 INFO status has been updated to successful
+fb43e88b8adf887c201498f1b0e358af.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]fb43e88b8adf887c201498f1b0e358af.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 213kB/s]                                                                                        [97/180] drought_code 2009 -> data\raw_fwi\drought_code_2009.nc
+2026-07-31 15:25:42,258 INFO Request ID is 9c6e6de9-7e25-409e-9d75-eca8b2851559
+2026-07-31 15:25:42,333 INFO status has been updated to accepted
+2026-07-31 15:26:16,517 INFO status has been updated to running
+2026-07-31 15:26:33,659 INFO status has been updated to successful
+56a577b051857111d97a12c89011953c.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]56a577b051857111d97a12c89011953c.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 232kB/s]                                                                                        [98/180] fine_fuel_moisture_code 2009 -> data\raw_fwi\fine_fuel_moisture_code_2009.nc
+2026-07-31 15:26:36,080 INFO Request ID is 90f2776e-0f2e-4d77-85dd-4b89925c9164
+2026-07-31 15:26:36,135 INFO status has been updated to accepted
+2026-07-31 15:27:26,075 INFO status has been updated to running
+2026-07-31 15:27:51,782 INFO status has been updated to successful
+42896289479d133c8d3554eaac914485.nc:   0%|          | 0.00/50.8k [00:00<?, ?B/s]42896289479d133c8d3554eaac914485.nc: 100%|##########| 50.8k/50.8k [00:00<00:00, 216kB/s]                                                                                        [99/180] build_up_index 2009 -> data\raw_fwi\build_up_index_2009.nc
+2026-07-31 15:27:52,558 INFO Request ID is 8c738408-6845-4bc8-9289-f8089c6b44b8
+2026-07-31 15:27:52,637 INFO status has been updated to accepted
+2026-07-31 15:28:14,027 INFO status has been updated to running
+2026-07-31 15:28:42,637 INFO status has been updated to successful
+922a82e6249ede178f9aa057015d0682.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]922a82e6249ede178f9aa057015d0682.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 226kB/s]                                                                                        [100/180] initial_fire_spread_index 2009 -> data\raw_fwi\initial_fire_spread_index_2009.nc
+2026-07-31 15:28:45,252 INFO Request ID is 721b3502-c8b3-4dad-bae0-2db2262ceb85
+2026-07-31 15:28:45,331 INFO status has been updated to accepted
+2026-07-31 15:29:18,345 INFO status has been updated to running
+2026-07-31 15:30:01,188 INFO status has been updated to successful
+977c90a1e65610cabd096821a9922d4f.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]977c90a1e65610cabd096821a9922d4f.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 203kB/s]                                                                                        [101/180] fire_weather_index 2010 -> data\raw_fwi\fire_weather_index_2010.nc
+2026-07-31 15:30:02,774 INFO Request ID is d9a0ce52-aff0-4df5-b5d4-b71863688399
+2026-07-31 15:30:02,843 INFO status has been updated to accepted
+2026-07-31 15:30:39,034 INFO status has been updated to running
+2026-07-31 15:30:56,216 INFO status has been updated to successful
+3aef379f3720e07725aaf077e0ad9b30.nc:   0%|          | 0.00/53.0k [00:00<?, ?B/s]3aef379f3720e07725aaf077e0ad9b30.nc: 100%|##########| 53.0k/53.0k [00:00<00:00, 234kB/s]                                                                                        [102/180] drought_code 2010 -> data\raw_fwi\drought_code_2010.nc
+2026-07-31 15:30:57,767 INFO Request ID is 8196b9fa-a54c-46e6-beb2-d6d5898ff2d4
+2026-07-31 15:30:57,828 INFO status has been updated to accepted
+2026-07-31 15:31:19,163 INFO status has been updated to running
+2026-07-31 15:31:47,877 INFO status has been updated to successful
+12190882bfa0454fd79a4c4012111224.nc:   0%|          | 0.00/51.8k [00:00<?, ?B/s]12190882bfa0454fd79a4c4012111224.nc: 100%|##########| 51.8k/51.8k [00:00<00:00, 221kB/s]                                                                                        [103/180] fine_fuel_moisture_code 2010 -> data\raw_fwi\fine_fuel_moisture_code_2010.nc
+2026-07-31 15:31:49,533 INFO Request ID is 3e22568e-a187-42e7-a2e4-c5219259fa2b
+2026-07-31 15:31:49,604 INFO status has been updated to accepted
+2026-07-31 15:32:10,814 INFO status has been updated to running
+2026-07-31 15:32:39,430 INFO status has been updated to successful
+cf760253e892f5b8908032020dc6180f.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]cf760253e892f5b8908032020dc6180f.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 220kB/s]                                                                                        [104/180] build_up_index 2010 -> data\raw_fwi\build_up_index_2010.nc
+2026-07-31 15:32:40,376 INFO Request ID is af55b3db-f2ef-4b56-975f-2c36bb51dbc4
+2026-07-31 15:32:40,452 INFO status has been updated to accepted
+2026-07-31 15:33:56,981 INFO status has been updated to successful
+4bbc85375849fbed675a7ebd73bd4aa4.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]4bbc85375849fbed675a7ebd73bd4aa4.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 242kB/s]                                                                                        [105/180] initial_fire_spread_index 2010 -> data\raw_fwi\initial_fire_spread_index_2010.nc
+2026-07-31 15:33:57,770 INFO Request ID is 572f8a56-a4bb-4922-b4ed-e5aeee5ef4dd
+2026-07-31 15:33:57,860 INFO status has been updated to accepted
+2026-07-31 15:34:30,488 INFO status has been updated to running
+2026-07-31 15:35:13,339 INFO status has been updated to successful
+7eda1f9ec22512239d83df7dccdbe037.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]7eda1f9ec22512239d83df7dccdbe037.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 216kB/s]                                                                                        [106/180] fire_weather_index 2011 -> data\raw_fwi\fire_weather_index_2011.nc
+2026-07-31 15:35:16,507 INFO Request ID is c48bd651-e6fc-4ba8-848a-d22ff80d020a
+2026-07-31 15:35:16,585 INFO status has been updated to accepted
+2026-07-31 15:35:49,964 INFO status has been updated to running
+2026-07-31 15:36:32,839 INFO status has been updated to successful
+157e20ce238cb1d68304b06e4bdfac73.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]157e20ce238cb1d68304b06e4bdfac73.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 201kB/s]                                                                                        [107/180] drought_code 2011 -> data\raw_fwi\drought_code_2011.nc
+2026-07-31 15:36:33,624 INFO Request ID is e75672a4-5fe0-4315-824b-477ad31417ab
+2026-07-31 15:36:33,697 INFO status has been updated to accepted
+2026-07-31 15:37:07,300 INFO status has been updated to running
+2026-07-31 15:37:50,231 INFO status has been updated to successful
+da8f3a8fd9d3350e80bcd759cc233715.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]da8f3a8fd9d3350e80bcd759cc233715.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 206kB/s]                                                                                        [108/180] fine_fuel_moisture_code 2011 -> data\raw_fwi\fine_fuel_moisture_code_2011.nc
+2026-07-31 15:37:51,132 INFO Request ID is b277a321-9608-426b-8cb9-45eee2a463e1
+2026-07-31 15:37:51,333 INFO status has been updated to accepted
+2026-07-31 15:38:14,105 INFO status has been updated to running
+2026-07-31 15:38:42,738 INFO status has been updated to successful
+cf75bcf3e58e665ac0552ecb4ac3ad39.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]cf75bcf3e58e665ac0552ecb4ac3ad39.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 202kB/s]                                                                                        [109/180] build_up_index 2011 -> data\raw_fwi\build_up_index_2011.nc
+2026-07-31 15:38:43,753 INFO Request ID is 400d8376-b5e2-423d-abf2-bf6d269e1e1b
+2026-07-31 15:38:44,016 INFO status has been updated to accepted
+2026-07-31 15:39:16,694 INFO status has been updated to running
+2026-07-31 15:39:33,859 INFO status has been updated to successful
+61917947a24be40cc974044929b44f6c.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]61917947a24be40cc974044929b44f6c.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 190kB/s]                                                                                        [110/180] initial_fire_spread_index 2011 -> data\raw_fwi\initial_fire_spread_index_2011.nc
+2026-07-31 15:39:34,747 INFO Request ID is 07e8e889-9006-4a97-8681-1dc381822143
+2026-07-31 15:39:39,410 INFO status has been updated to accepted
+2026-07-31 15:39:48,241 INFO status has been updated to running
+2026-07-31 15:40:29,673 INFO status has been updated to successful
+c4af44dde6960d0ebe6f28c63fbdf5e7.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]c4af44dde6960d0ebe6f28c63fbdf5e7.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 197kB/s]                                                                                        [111/180] fire_weather_index 2012 -> data\raw_fwi\fire_weather_index_2012.nc
+2026-07-31 15:40:32,020 INFO Request ID is 2262fd01-e8aa-4d36-b63c-72e65b0bb579
+2026-07-31 15:40:32,080 INFO status has been updated to accepted
+2026-07-31 15:40:53,302 INFO status has been updated to running
+2026-07-31 15:41:21,945 INFO status has been updated to successful
+29d1fa695c9ffecba548fa8792499f9f.nc:   0%|          | 0.00/53.0k [00:00<?, ?B/s]29d1fa695c9ffecba548fa8792499f9f.nc: 100%|##########| 53.0k/53.0k [00:00<00:00, 217kB/s]                                                                                        [112/180] drought_code 2012 -> data\raw_fwi\drought_code_2012.nc
+2026-07-31 15:41:22,774 INFO Request ID is 309af6dd-859f-4896-8698-50401408dc0d
+2026-07-31 15:41:22,838 INFO status has been updated to accepted
+2026-07-31 15:41:44,031 INFO status has been updated to running
+2026-07-31 15:42:12,680 INFO status has been updated to successful
+76e87c416ffb6d4b7307ea96971a880f.nc:   0%|          | 0.00/52.1k [00:00<?, ?B/s]76e87c416ffb6d4b7307ea96971a880f.nc: 100%|##########| 52.1k/52.1k [00:00<00:00, 225kB/s]                                                                                        [113/180] fine_fuel_moisture_code 2012 -> data\raw_fwi\fine_fuel_moisture_code_2012.nc
+2026-07-31 15:42:13,470 INFO Request ID is 95961f81-1898-4592-809b-4000b5b597a7
+2026-07-31 15:42:15,572 INFO status has been updated to accepted
+2026-07-31 15:42:48,283 INFO status has been updated to running
+2026-07-31 15:43:31,139 INFO status has been updated to successful
+3163f7e917c30e6f4dc9e6b9a37dd27a.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]3163f7e917c30e6f4dc9e6b9a37dd27a.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 205kB/s]                                                                                        [114/180] build_up_index 2012 -> data\raw_fwi\build_up_index_2012.nc
+2026-07-31 15:43:35,048 INFO Request ID is b5b57edc-2952-4c5f-b6db-84e13e33256f
+2026-07-31 15:43:35,123 INFO status has been updated to accepted
+2026-07-31 15:44:07,790 INFO status has been updated to running
+2026-07-31 15:44:25,751 INFO status has been updated to successful
+66eaa47b145cce9a8bec704bce5e4d10.nc:   0%|          | 0.00/52.1k [00:00<?, ?B/s]66eaa47b145cce9a8bec704bce5e4d10.nc: 100%|##########| 52.1k/52.1k [00:00<00:00, 215kB/s]                                                                                        [115/180] initial_fire_spread_index 2012 -> data\raw_fwi\initial_fire_spread_index_2012.nc
+2026-07-31 15:44:27,917 INFO Request ID is 82bbefc7-a293-4f3c-96dd-5e3c62826606
+2026-07-31 15:44:27,973 INFO status has been updated to accepted
+2026-07-31 15:45:00,848 INFO status has been updated to running
+2026-07-31 15:45:18,016 INFO status has been updated to successful
+86247becf5bf6c48eb39dea2ea8cab5c.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]86247becf5bf6c48eb39dea2ea8cab5c.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 197kB/s]                                                                                        [116/180] fire_weather_index 2013 -> data\raw_fwi\fire_weather_index_2013.nc
+2026-07-31 15:45:19,210 INFO Request ID is 620b80a3-f381-4314-a504-06d5c0de91bb
+2026-07-31 15:45:19,277 INFO status has been updated to accepted
+2026-07-31 15:45:40,500 INFO status has been updated to running
+2026-07-31 15:46:09,095 INFO status has been updated to successful
+d9df9542dc531c6d3d7c4c9a23d6c4c5.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]d9df9542dc531c6d3d7c4c9a23d6c4c5.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 211kB/s]                                                                                        [117/180] drought_code 2013 -> data\raw_fwi\drought_code_2013.nc
+2026-07-31 15:46:10,016 INFO Request ID is 2342431b-c311-42c4-862a-756ca5d382ca
+2026-07-31 15:46:10,087 INFO status has been updated to accepted
+2026-07-31 15:46:35,721 INFO status has been updated to running
+2026-07-31 15:47:32,990 INFO status has been updated to successful
+c3adb888b5d786656165465f33152845.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]c3adb888b5d786656165465f33152845.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 193kB/s]                                                                                        [118/180] fine_fuel_moisture_code 2013 -> data\raw_fwi\fine_fuel_moisture_code_2013.nc
+2026-07-31 15:47:33,771 INFO Request ID is 2e6acd03-3737-4082-9062-4960facb41a8
+2026-07-31 15:47:33,857 INFO status has been updated to accepted
+2026-07-31 15:47:55,046 INFO status has been updated to running
+2026-07-31 15:48:49,776 INFO status has been updated to successful
+93f8405064d62433d19ccaed550fa45d.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]93f8405064d62433d19ccaed550fa45d.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 220kB/s]                                                                                        [119/180] build_up_index 2013 -> data\raw_fwi\build_up_index_2013.nc
+2026-07-31 15:48:52,936 INFO Request ID is 35fb979d-c0bf-4f76-8c79-87f2616c9114
+2026-07-31 15:48:53,014 INFO status has been updated to accepted
+2026-07-31 15:49:25,670 INFO status has been updated to running
+2026-07-31 15:50:08,538 INFO status has been updated to successful
+4c427024d0b344500a8de9f286a9c5a0.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]4c427024d0b344500a8de9f286a9c5a0.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 201kB/s]                                                                                        [120/180] initial_fire_spread_index 2013 -> data\raw_fwi\initial_fire_spread_index_2013.nc
+2026-07-31 15:50:09,533 INFO Request ID is a0f48215-1705-401c-bbb6-124f014aa7fb
+2026-07-31 15:50:09,665 INFO status has been updated to accepted
+2026-07-31 15:50:30,879 INFO status has been updated to running
+2026-07-31 15:50:59,487 INFO status has been updated to successful
+ddd434ef86176b2305131527827169fd.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]ddd434ef86176b2305131527827169fd.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 220kB/s]                                                                                        [121/180] fire_weather_index 2014 -> data\raw_fwi\fire_weather_index_2014.nc
+2026-07-31 15:51:01,334 INFO Request ID is 43592248-4142-42f8-a651-50be874cdaba
+2026-07-31 15:51:01,909 INFO status has been updated to accepted
+2026-07-31 15:51:16,205 INFO status has been updated to running
+2026-07-31 15:51:35,334 INFO status has been updated to successful
+fb2efaf93828e5514fc1c0b3148c36d3.nc:   0%|          | 0.00/53.0k [00:00<?, ?B/s]fb2efaf93828e5514fc1c0b3148c36d3.nc: 100%|##########| 53.0k/53.0k [00:00<00:00, 222kB/s]                                                                                        [122/180] drought_code 2014 -> data\raw_fwi\drought_code_2014.nc
+2026-07-31 15:51:37,192 INFO Request ID is cdfd15c8-ca91-4cde-a6d9-56c90eb076ff
+2026-07-31 15:51:37,247 INFO status has been updated to accepted
+2026-07-31 15:51:58,422 INFO status has been updated to running
+2026-07-31 15:52:54,760 INFO status has been updated to successful
+1af8e80da6568e2cdb8747772cba1a27.nc:   0%|          | 0.00/51.8k [00:00<?, ?B/s]1af8e80da6568e2cdb8747772cba1a27.nc: 100%|##########| 51.8k/51.8k [00:00<00:00, 249kB/s]                                                                                        [123/180] fine_fuel_moisture_code 2014 -> data\raw_fwi\fine_fuel_moisture_code_2014.nc
+2026-07-31 15:53:00,602 INFO Request ID is 2e129f7f-4e8a-4128-b45c-e13aaf7adbc1
+2026-07-31 15:53:00,663 INFO status has been updated to accepted
+2026-07-31 15:53:22,338 INFO status has been updated to running
+2026-07-31 15:53:51,437 INFO status has been updated to successful
+263cacbb7992b1607e97f84f8105a2b5.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]263cacbb7992b1607e97f84f8105a2b5.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 224kB/s]                                                                                        [124/180] build_up_index 2014 -> data\raw_fwi\build_up_index_2014.nc
+2026-07-31 15:53:53,861 INFO Request ID is db0157f6-d5ed-4c6c-be22-5f93aab4bcd5
+2026-07-31 15:53:54,508 INFO status has been updated to accepted
+2026-07-31 15:55:10,153 INFO status has been updated to running
+2026-07-31 15:55:48,675 INFO status has been updated to successful
+c41e40ace4ffa3de4f29c1fcfeb4da65.nc:   0%|          | 0.00/52.0k [00:00<?, ?B/s]c41e40ace4ffa3de4f29c1fcfeb4da65.nc: 100%|##########| 52.0k/52.0k [00:00<00:00, 209kB/s]                                                                                        [125/180] initial_fire_spread_index 2014 -> data\raw_fwi\initial_fire_spread_index_2014.nc
+2026-07-31 15:55:50,054 INFO Request ID is f1a8cac8-cdf0-481a-b03c-ca4ad88154bf
+2026-07-31 15:55:50,138 INFO status has been updated to accepted
+2026-07-31 15:56:11,359 INFO status has been updated to running
+2026-07-31 15:56:40,008 INFO status has been updated to successful
+9f31c66e8d45cf26c1f652ee8f690acc.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]9f31c66e8d45cf26c1f652ee8f690acc.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 243kB/s]                                                                                        [126/180] fire_weather_index 2015 -> data\raw_fwi\fire_weather_index_2015.nc
+2026-07-31 15:56:41,475 INFO Request ID is e45609d0-2e3a-47cc-bc60-58d1f58e3291
+2026-07-31 15:56:41,529 INFO status has been updated to accepted
+2026-07-31 15:57:59,750 INFO status has been updated to successful
+38a04efbfb7e7487f93a996ccf2c38b8.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]38a04efbfb7e7487f93a996ccf2c38b8.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 218kB/s]                                                                                        [127/180] drought_code 2015 -> data\raw_fwi\drought_code_2015.nc
+2026-07-31 15:58:00,563 INFO Request ID is 3bd2a252-6136-4479-9cce-45bcc1928766
+2026-07-31 15:58:00,638 INFO status has been updated to accepted
+2026-07-31 15:58:15,507 INFO status has been updated to running
+2026-07-31 15:58:51,767 INFO status has been updated to successful
+e1ecdcd5431a8099ccdb2dc29c788fcc.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]e1ecdcd5431a8099ccdb2dc29c788fcc.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 200kB/s]                                                                                        [128/180] fine_fuel_moisture_code 2015 -> data\raw_fwi\fine_fuel_moisture_code_2015.nc
+2026-07-31 15:58:52,567 INFO Request ID is c947ce17-5923-4e62-9e2e-193a8d389a5a
+2026-07-31 15:58:52,620 INFO status has been updated to accepted
+2026-07-31 15:59:13,908 INFO status has been updated to running
+2026-07-31 15:59:25,389 INFO status has been updated to successful
+7404d7666d8f00040358a11035355ae.nc:   0%|          | 0.00/50.8k [00:00<?, ?B/s]7404d7666d8f00040358a11035355ae.nc: 100%|##########| 50.8k/50.8k [00:00<00:00, 220kB/s]                                                                                       [129/180] build_up_index 2015 -> data\raw_fwi\build_up_index_2015.nc
+2026-07-31 15:59:26,278 INFO Request ID is f416e9f1-673e-4f31-8fc3-09548f19f896
+2026-07-31 15:59:26,341 INFO status has been updated to accepted
+2026-07-31 15:59:47,545 INFO status has been updated to running
+2026-07-31 16:00:16,168 INFO status has been updated to successful
+94ee74c8116b5abce435ab2dd21fff03.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]94ee74c8116b5abce435ab2dd21fff03.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 202kB/s]                                                                                        [130/180] initial_fire_spread_index 2015 -> data\raw_fwi\initial_fire_spread_index_2015.nc
+2026-07-31 16:00:19,881 INFO Request ID is aa47ce81-47f0-48c4-84cd-fe696a02b59a
+2026-07-31 16:00:19,957 INFO status has been updated to accepted
+2026-07-31 16:00:41,667 INFO status has been updated to running
+2026-07-31 16:01:10,322 INFO status has been updated to successful
+52320bd852a5ab632c9386e4b91f3fc1.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]52320bd852a5ab632c9386e4b91f3fc1.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 211kB/s]                                                                                        [131/180] fire_weather_index 2016 -> data\raw_fwi\fire_weather_index_2016.nc
+2026-07-31 16:01:11,768 INFO Request ID is 773850db-e2b1-4ae9-8402-b75f6093dbc1
+2026-07-31 16:01:11,824 INFO status has been updated to accepted
+2026-07-31 16:01:44,970 INFO status has been updated to running
+2026-07-31 16:02:02,118 INFO status has been updated to successful
+8c3a89fd1d1f959711e288409b6f46b1.nc:   0%|          | 0.00/53.2k [00:00<?, ?B/s]8c3a89fd1d1f959711e288409b6f46b1.nc: 100%|##########| 53.2k/53.2k [00:00<00:00, 227kB/s]                                                                                        [132/180] drought_code 2016 -> data\raw_fwi\drought_code_2016.nc
+2026-07-31 16:02:03,879 INFO Request ID is 33033865-db14-4968-ae77-985bc6ff037b
+2026-07-31 16:02:03,936 INFO status has been updated to accepted
+2026-07-31 16:02:25,352 INFO status has been updated to running
+2026-07-31 16:03:20,032 INFO status has been updated to successful
+f79350a5d8d36d93faa7f2a71d7f30a2.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]f79350a5d8d36d93faa7f2a71d7f30a2.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 204kB/s]                                                                                        [133/180] fine_fuel_moisture_code 2016 -> data\raw_fwi\fine_fuel_moisture_code_2016.nc
+2026-07-31 16:03:20,783 INFO Request ID is 4557aafd-5c95-446f-aa7b-6d7091853ce1
+2026-07-31 16:03:20,835 INFO status has been updated to accepted
+2026-07-31 16:04:11,844 INFO status has been updated to successful
+7edb0e88e84d7c8509c02d27dcc575e3.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]7edb0e88e84d7c8509c02d27dcc575e3.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 220kB/s]                                                                                        [134/180] build_up_index 2016 -> data\raw_fwi\build_up_index_2016.nc
+2026-07-31 16:04:13,858 INFO Request ID is 80ac43aa-453a-4c6f-aea7-975edd4dcc32
+2026-07-31 16:04:13,925 INFO status has been updated to accepted
+2026-07-31 16:04:30,091 INFO status has been updated to running
+2026-07-31 16:04:51,511 INFO status has been updated to successful
+1c5b41554d6f64e21b806a97c5dfae95.nc:   0%|          | 0.00/52.0k [00:00<?, ?B/s]1c5b41554d6f64e21b806a97c5dfae95.nc: 100%|##########| 52.0k/52.0k [00:00<00:00, 194kB/s]                                                                                        [135/180] initial_fire_spread_index 2016 -> data\raw_fwi\initial_fire_spread_index_2016.nc
+2026-07-31 16:04:52,364 INFO Request ID is 3c29f2c1-9e9f-40bd-9229-bbd0736ffb9e
+2026-07-31 16:04:52,420 INFO status has been updated to accepted
+2026-07-31 16:05:13,632 INFO status has been updated to running
+2026-07-31 16:09:11,115 INFO status has been updated to successful
+15f35d10f99144070d169a5d555c1059.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]15f35d10f99144070d169a5d555c1059.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 206kB/s]                                                                                        [136/180] fire_weather_index 2017 -> data\raw_fwi\fire_weather_index_2017.nc
+2026-07-31 16:09:12,468 INFO Request ID is bb6edd77-805f-4263-bb21-932993ce0c83
+2026-07-31 16:09:12,528 INFO status has been updated to accepted
+2026-07-31 16:09:33,874 INFO status has been updated to running
+2026-07-31 16:10:02,483 INFO status has been updated to successful
+ea5d03955f82a1bb5b1f70da5905c3ac.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]ea5d03955f82a1bb5b1f70da5905c3ac.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 214kB/s]                                                                                        [137/180] drought_code 2017 -> data\raw_fwi\drought_code_2017.nc
+2026-07-31 16:10:05,398 INFO Request ID is 2b9d5b30-2dbc-4d9e-92a7-d88d45137b3d
+2026-07-31 16:10:05,492 INFO status has been updated to accepted
+2026-07-31 16:10:38,354 INFO status has been updated to running
+2026-07-31 16:10:56,896 INFO status has been updated to successful
+9e70f230ebfd1e96524f2658461ab8bc.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]9e70f230ebfd1e96524f2658461ab8bc.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 200kB/s]                                                                                        [138/180] fine_fuel_moisture_code 2017 -> data\raw_fwi\fine_fuel_moisture_code_2017.nc
+2026-07-31 16:11:02,344 INFO Request ID is cf6d7a98-ecc4-43ca-84df-000741591854
+2026-07-31 16:11:02,477 INFO status has been updated to accepted
+2026-07-31 16:11:52,449 INFO status has been updated to running
+2026-07-31 16:12:19,413 INFO status has been updated to successful
+ee9525baf0043d641c37fb5d6673aebb.nc:   0%|          | 0.00/50.7k [00:00<?, ?B/s]ee9525baf0043d641c37fb5d6673aebb.nc: 100%|##########| 50.7k/50.7k [00:00<00:00, 209kB/s]                                                                                        [139/180] build_up_index 2017 -> data\raw_fwi\build_up_index_2017.nc
+2026-07-31 16:12:21,263 INFO Request ID is d9ce812a-818e-41ec-83cd-669154f6dc7b
+2026-07-31 16:12:21,341 INFO status has been updated to accepted
+2026-07-31 16:12:44,548 INFO status has been updated to running
+2026-07-31 16:12:56,123 INFO status has been updated to successful
+f2d691e4dbf5a10a70646bdb1238f2aa.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]f2d691e4dbf5a10a70646bdb1238f2aa.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 198kB/s]                                                                                        [140/180] initial_fire_spread_index 2017 -> data\raw_fwi\initial_fire_spread_index_2017.nc
+2026-07-31 16:12:57,460 INFO Request ID is 0111df85-9e68-4e95-9dab-5e0f6006e34a
+2026-07-31 16:13:00,643 INFO status has been updated to accepted
+2026-07-31 16:13:14,132 INFO status has been updated to running
+2026-07-31 16:14:16,432 INFO status has been updated to successful
+a69e9de6feb9c366cde19ff32c20ff54.nc:   0%|          | 0.00/52.4k [00:00<?, ?B/s]a69e9de6feb9c366cde19ff32c20ff54.nc: 100%|##########| 52.4k/52.4k [00:00<00:00, 200kB/s]                                                                                        [141/180] fire_weather_index 2018 -> data\raw_fwi\fire_weather_index_2018.nc
+2026-07-31 16:14:17,827 INFO Request ID is 0cb3feb3-087a-4e10-8203-5841eba69f99
+2026-07-31 16:14:18,488 INFO status has been updated to accepted
+2026-07-31 16:14:40,201 INFO status has been updated to running
+2026-07-31 16:15:08,816 INFO status has been updated to successful
+4a93aad0f198d3349f6faf4243ae1bed.nc:   0%|          | 0.00/53.6k [00:00<?, ?B/s]4a93aad0f198d3349f6faf4243ae1bed.nc: 100%|##########| 53.6k/53.6k [00:00<00:00, 225kB/s]                                                                                        [142/180] drought_code 2018 -> data\raw_fwi\drought_code_2018.nc
+2026-07-31 16:15:09,721 INFO Request ID is d1fada7d-50a9-4ba8-85b8-099af853c836
+2026-07-31 16:15:09,779 INFO status has been updated to accepted
+2026-07-31 16:15:32,507 INFO status has been updated to running
+2026-07-31 16:16:01,449 INFO status has been updated to successful
+da05b37679e937af4966badbd3614b66.nc:   0%|          | 0.00/51.9k [00:00<?, ?B/s]da05b37679e937af4966badbd3614b66.nc: 100%|##########| 51.9k/51.9k [00:00<00:00, 222kB/s]                                                                                        [143/180] fine_fuel_moisture_code 2018 -> data\raw_fwi\fine_fuel_moisture_code_2018.nc
+2026-07-31 16:16:02,268 INFO Request ID is fe5cc856-4201-43c7-9ad8-6b092145785e
+2026-07-31 16:16:02,344 INFO status has been updated to accepted
+2026-07-31 16:16:23,540 INFO status has been updated to running
+2026-07-31 16:16:53,190 INFO status has been updated to successful
+a41cdb3fa3517b1bd8ba3be3aaec5aa7.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]a41cdb3fa3517b1bd8ba3be3aaec5aa7.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 197kB/s]                                                                                        [144/180] build_up_index 2018 -> data\raw_fwi\build_up_index_2018.nc
+2026-07-31 16:16:54,053 INFO Request ID is f3ee3d28-9b01-44ec-8a4f-6a067d87463b
+2026-07-31 16:16:54,122 INFO status has been updated to accepted
+2026-07-31 16:17:18,682 INFO status has been updated to running
+2026-07-31 16:18:13,412 INFO status has been updated to successful
+21326c0ced30f29e47d37595f1eadc7e.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]21326c0ced30f29e47d37595f1eadc7e.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 236kB/s]                                                                                        [145/180] initial_fire_spread_index 2018 -> data\raw_fwi\initial_fire_spread_index_2018.nc
+2026-07-31 16:18:14,191 INFO Request ID is d98ebca6-f9d3-4186-bdc2-c8312c1e0da1
+2026-07-31 16:18:14,273 INFO status has been updated to accepted
+2026-07-31 16:18:35,502 INFO status has been updated to running
+2026-07-31 16:19:05,294 INFO status has been updated to successful
+4d5253f30ff26eb3efcb733231206efd.nc:   0%|          | 0.00/53.1k [00:00<?, ?B/s]4d5253f30ff26eb3efcb733231206efd.nc: 100%|##########| 53.1k/53.1k [00:00<00:00, 220kB/s]                                                                                        [146/180] fire_weather_index 2019 -> data\raw_fwi\fire_weather_index_2019.nc
+2026-07-31 16:19:06,407 INFO Request ID is 9fbb5b7a-250d-4866-b07b-545f20dd2187
+2026-07-31 16:19:06,471 INFO status has been updated to accepted
+2026-07-31 16:19:28,508 INFO status has been updated to running
+2026-07-31 16:19:57,189 INFO status has been updated to successful
+181fde3d7fc01a8c4e53f92d236a7a98.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]181fde3d7fc01a8c4e53f92d236a7a98.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 224kB/s]                                                                                        [147/180] drought_code 2019 -> data\raw_fwi\drought_code_2019.nc
+2026-07-31 16:19:58,945 INFO Request ID is 9b317bc5-df6f-446d-98ef-88217b81ff83
+2026-07-31 16:19:59,470 INFO status has been updated to accepted
+2026-07-31 16:20:32,183 INFO status has been updated to running
+2026-07-31 16:20:49,338 INFO status has been updated to successful
+a3212b4f56c20bf7c5d163fcd45b0000.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]a3212b4f56c20bf7c5d163fcd45b0000.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 205kB/s]                                                                                        [148/180] fine_fuel_moisture_code 2019 -> data\raw_fwi\fine_fuel_moisture_code_2019.nc
+2026-07-31 16:20:50,195 INFO Request ID is b48c98fd-3bf7-480c-931f-868ec8923f99
+2026-07-31 16:20:50,260 INFO status has been updated to accepted
+2026-07-31 16:22:08,957 INFO status has been updated to running
+2026-07-31 16:22:47,484 INFO status has been updated to successful
+8d9bd93451b2611d411ddf67582f86b9.nc:   0%|          | 0.00/50.7k [00:00<?, ?B/s]8d9bd93451b2611d411ddf67582f86b9.nc: 100%|##########| 50.7k/50.7k [00:00<00:00, 140kB/s]                                                                                        [149/180] build_up_index 2019 -> data\raw_fwi\build_up_index_2019.nc
+2026-07-31 16:22:48,434 INFO Request ID is bbdb84f0-30e6-4708-95a7-6bc4ae3b6d84
+2026-07-31 16:22:48,505 INFO status has been updated to accepted
+2026-07-31 16:24:04,007 INFO status has been updated to successful
+1db1cbe4be1ca7a3eb242f763e357d09.nc:   0%|          | 0.00/52.1k [00:00<?, ?B/s]1db1cbe4be1ca7a3eb242f763e357d09.nc: 100%|##########| 52.1k/52.1k [00:00<00:00, 236kB/s]                                                                                        [150/180] initial_fire_spread_index 2019 -> data\raw_fwi\initial_fire_spread_index_2019.nc
+2026-07-31 16:24:04,981 INFO Request ID is 56a30ef8-50ab-49f9-81cb-384991b33a76
+2026-07-31 16:24:05,055 INFO status has been updated to accepted
+2026-07-31 16:24:19,194 INFO status has been updated to running
+2026-07-31 16:24:38,320 INFO status has been updated to successful
+1ccd8b917044026108af18fb014325cb.nc:   0%|          | 0.00/52.3k [00:00<?, ?B/s]1ccd8b917044026108af18fb014325cb.nc: 100%|##########| 52.3k/52.3k [00:00<00:00, 225kB/s]                                                                                        [151/180] fire_weather_index 2020 -> data\raw_fwi\fire_weather_index_2020.nc
+2026-07-31 16:24:39,060 INFO Request ID is 6ea0f054-95a7-4770-a4ec-378fda7d029e
+2026-07-31 16:24:39,112 INFO status has been updated to accepted
+2026-07-31 16:25:00,262 INFO status has been updated to running
+2026-07-31 16:25:28,888 INFO status has been updated to successful
+7fa0507f27650ea5c4b16de5a221982c.nc:   0%|          | 0.00/53.2k [00:00<?, ?B/s]7fa0507f27650ea5c4b16de5a221982c.nc: 100%|##########| 53.2k/53.2k [00:00<00:00, 236kB/s]                                                                                        [152/180] drought_code 2020 -> data\raw_fwi\drought_code_2020.nc
+2026-07-31 16:25:29,986 INFO Request ID is b66442f0-07cf-48b0-9990-ed159f240cce
+2026-07-31 16:25:30,048 INFO status has been updated to accepted
+2026-07-31 16:25:54,059 INFO status has been updated to running
+2026-07-31 16:26:22,702 INFO status has been updated to successful
+26190a0e56315aabf025fab637632d2.nc:   0%|          | 0.00/50.6k [00:00<?, ?B/s]26190a0e56315aabf025fab637632d2.nc: 100%|##########| 50.6k/50.6k [00:00<00:00, 205kB/s]                                                                                       [153/180] fine_fuel_moisture_code 2020 -> data\raw_fwi\fine_fuel_moisture_code_2020.nc
+2026-07-31 16:26:23,989 INFO Request ID is 8d708f77-564c-4ea2-93c5-4c8f6023abe1
+2026-07-31 16:26:24,065 INFO status has been updated to accepted
+2026-07-31 16:26:46,642 INFO status has been updated to running
+2026-07-31 16:27:42,521 INFO status has been updated to successful
+87a68ff1cfdd317705f36b1ed7b7615e.nc:   0%|          | 0.00/51.1k [00:00<?, ?B/s]87a68ff1cfdd317705f36b1ed7b7615e.nc: 100%|##########| 51.1k/51.1k [00:00<00:00, 230kB/s]                                                                                        [154/180] build_up_index 2020 -> data\raw_fwi\build_up_index_2020.nc
+2026-07-31 16:27:43,226 INFO Request ID is f9b5856a-d8ca-4354-a09d-d03e4016f5d9
+2026-07-31 16:27:43,431 INFO status has been updated to accepted
+2026-07-31 16:28:06,512 INFO status has been updated to running
+2026-07-31 16:29:39,550 INFO status has been updated to successful
+f363623d7a8f9cc0cd85db74ec661157.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]f363623d7a8f9cc0cd85db74ec661157.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 224kB/s]                                                                                        [155/180] initial_fire_spread_index 2020 -> data\raw_fwi\initial_fire_spread_index_2020.nc
+2026-07-31 16:29:41,266 INFO Request ID is 653dff87-3c0f-4643-8ea6-113fb8079da4
+2026-07-31 16:29:41,323 INFO status has been updated to accepted
+2026-07-31 16:30:02,518 INFO status has been updated to running
+2026-07-31 16:30:16,885 INFO status has been updated to successful
+d60920aaeb200f8c466f6ae8f360deae.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]d60920aaeb200f8c466f6ae8f360deae.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 248kB/s]                                                                                        [156/180] fire_weather_index 2021 -> data\raw_fwi\fire_weather_index_2021.nc
+2026-07-31 16:30:18,817 INFO Request ID is 596ff61d-00a7-486d-a871-6ca2c330a85c
+2026-07-31 16:30:18,884 INFO status has been updated to accepted
+2026-07-31 16:30:42,674 INFO status has been updated to running
+2026-07-31 16:30:54,139 INFO status has been updated to successful
+87e064e1ebde145adb52d6c58add010.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]87e064e1ebde145adb52d6c58add010.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 235kB/s]                                                                                       [157/180] drought_code 2021 -> data\raw_fwi\drought_code_2021.nc
+2026-07-31 16:30:54,967 INFO Request ID is 17a70819-dcad-458f-896d-edda612d706d
+2026-07-31 16:30:55,037 INFO status has been updated to accepted
+2026-07-31 16:31:16,244 INFO status has been updated to running
+2026-07-31 16:31:27,712 INFO status has been updated to successful
+2f15d4e9f000f7d7f5a750900eb8b0f.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]2f15d4e9f000f7d7f5a750900eb8b0f.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 202kB/s]                                                                                       [158/180] fine_fuel_moisture_code 2021 -> data\raw_fwi\fine_fuel_moisture_code_2021.nc
+2026-07-31 16:31:28,764 INFO Request ID is 2fcdeaf3-adee-4df5-9015-7e0cab85f104
+2026-07-31 16:31:28,845 INFO status has been updated to accepted
+2026-07-31 16:31:44,310 INFO status has been updated to running
+2026-07-31 16:32:03,740 INFO status has been updated to successful
+a73c1290340b5797784bf8d3540aaf67.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]a73c1290340b5797784bf8d3540aaf67.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 228kB/s]                                                                                        [159/180] build_up_index 2021 -> data\raw_fwi\build_up_index_2021.nc
+2026-07-31 16:32:04,495 INFO Request ID is ba22734d-93b6-4a9b-a29f-63749774bdbe
+2026-07-31 16:32:04,565 INFO status has been updated to accepted
+2026-07-31 16:32:26,152 INFO status has been updated to running
+2026-07-31 16:32:37,628 INFO status has been updated to successful
+b7cba21a15df63713d18b1e0bd96b96a.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]b7cba21a15df63713d18b1e0bd96b96a.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 228kB/s]                                                                                        [160/180] initial_fire_spread_index 2021 -> data\raw_fwi\initial_fire_spread_index_2021.nc
+2026-07-31 16:32:40,951 INFO Request ID is c71b6722-ed41-41ea-a5ad-e4baad39e0ad
+2026-07-31 16:32:41,010 INFO status has been updated to accepted
+2026-07-31 16:33:13,657 INFO status has been updated to running
+2026-07-31 16:33:30,812 INFO status has been updated to successful
+3e02cb0529592864e05707cdc049f331.nc:   0%|          | 0.00/52.8k [00:00<?, ?B/s]3e02cb0529592864e05707cdc049f331.nc: 100%|##########| 52.8k/52.8k [00:00<00:00, 255kB/s]                                                                                        [161/180] fire_weather_index 2022 -> data\raw_fwi\fire_weather_index_2022.nc
+2026-07-31 16:33:31,769 INFO Request ID is 3c8c1559-e90c-4924-919d-a06cbedee2bc
+2026-07-31 16:33:31,858 INFO status has been updated to accepted
+2026-07-31 16:34:05,905 INFO status has been updated to running
+2026-07-31 16:34:23,069 INFO status has been updated to successful
+718f7ae4093fa0385f9dc864ec00815.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]718f7ae4093fa0385f9dc864ec00815.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 229kB/s]                                                                                       [162/180] drought_code 2022 -> data\raw_fwi\drought_code_2022.nc
+2026-07-31 16:34:24,677 INFO Request ID is cb6e3a0e-a47e-4229-9a6d-b8f42dbafa6a
+2026-07-31 16:34:24,735 INFO status has been updated to accepted
+2026-07-31 16:34:45,961 INFO status has been updated to running
+2026-07-31 16:35:14,605 INFO status has been updated to successful
+2241524a7684eaef58e1cb87ac4d27b.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]2241524a7684eaef58e1cb87ac4d27b.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 251kB/s]                                                                                       [163/180] fine_fuel_moisture_code 2022 -> data\raw_fwi\fine_fuel_moisture_code_2022.nc
+2026-07-31 16:35:15,367 INFO Request ID is 429e8924-c065-4ee2-ab89-2ca429e7d07f
+2026-07-31 16:35:15,439 INFO status has been updated to accepted
+2026-07-31 16:35:33,494 INFO status has been updated to running
+2026-07-31 16:35:52,638 INFO status has been updated to successful
+90932c6f8abe3180f29e287d8ca12883.nc:   0%|          | 0.00/51.2k [00:00<?, ?B/s]90932c6f8abe3180f29e287d8ca12883.nc: 100%|##########| 51.2k/51.2k [00:00<00:00, 235kB/s]                                                                                        [164/180] build_up_index 2022 -> data\raw_fwi\build_up_index_2022.nc
+2026-07-31 16:35:53,357 INFO Request ID is a956463a-0da4-4a5a-91e1-030e2a86908a
+2026-07-31 16:35:53,431 INFO status has been updated to accepted
+2026-07-31 16:36:26,194 INFO status has been updated to running
+2026-07-31 16:36:43,359 INFO status has been updated to successful
+d57374d7d85354ac52cdaf8bb38c6595.nc:   0%|          | 0.00/52.2k [00:00<?, ?B/s]d57374d7d85354ac52cdaf8bb38c6595.nc: 100%|##########| 52.2k/52.2k [00:00<00:00, 254kB/s]                                                                                        [165/180] initial_fire_spread_index 2022 -> data\raw_fwi\initial_fire_spread_index_2022.nc
+2026-07-31 16:36:45,087 INFO Request ID is 5b74126d-a064-4cca-a680-d8de4f98db2b
+2026-07-31 16:36:45,176 INFO status has been updated to accepted
+2026-07-31 16:37:06,384 INFO status has been updated to running
+2026-07-31 16:37:35,019 INFO status has been updated to successful
+34766dfee401fa5087d45560c3e0c87.nc:   0%|          | 0.00/52.6k [00:00<?, ?B/s]34766dfee401fa5087d45560c3e0c87.nc: 100%|##########| 52.6k/52.6k [00:00<00:00, 214kB/s]                                                                                       [166/180] fire_weather_index 2023 -> data\raw_fwi\fire_weather_index_2023.nc
+2026-07-31 16:37:38,605 INFO Request ID is a3971677-5596-43c5-baf4-77076cff270a
+2026-07-31 16:37:40,112 INFO status has been updated to accepted
+2026-07-31 16:38:16,679 INFO status has been updated to running
+2026-07-31 16:40:35,930 INFO status has been updated to successful
+97e43504d082af4a475b8d7fb5c3a123.nc:   0%|          | 0.00/52.7k [00:00<?, ?B/s]97e43504d082af4a475b8d7fb5c3a123.nc: 100%|##########| 52.7k/52.7k [00:00<00:00, 234kB/s]                                                                                        [167/180] drought_code 2023 -> data\raw_fwi\drought_code_2023.nc
+2026-07-31 16:40:36,787 INFO Request ID is 00ae08bb-ac52-4808-9611-8666b23172a1
+2026-07-31 16:40:36,847 INFO status has been updated to accepted
+2026-07-31 16:40:58,141 INFO status has been updated to running
+2026-07-31 16:41:26,758 INFO status has been updated to successful
+827e94e8545f74f6eb265d34f4a14481.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]827e94e8545f74f6eb265d34f4a14481.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 222kB/s]                                                                                        [168/180] fine_fuel_moisture_code 2023 -> data\raw_fwi\fine_fuel_moisture_code_2023.nc
+2026-07-31 16:41:27,481 INFO Request ID is f59626e7-3172-49b7-9e7b-675f2dd18a46
+2026-07-31 16:41:27,538 INFO status has been updated to accepted
+2026-07-31 16:41:48,766 INFO status has been updated to running
+2026-07-31 16:42:00,232 INFO status has been updated to successful
+3bb1c17a4e7f4ad5f8580d9fded7fb00.nc:   0%|          | 0.00/50.9k [00:00<?, ?B/s]3bb1c17a4e7f4ad5f8580d9fded7fb00.nc: 100%|##########| 50.9k/50.9k [00:00<00:00, 238kB/s]                                                                                        [169/180] build_up_index 2023 -> data\raw_fwi\build_up_index_2023.nc
+2026-07-31 16:42:01,049 INFO Request ID is aa0dfb84-f702-46f5-8b5b-152969519cb7
+2026-07-31 16:42:01,116 INFO status has been updated to accepted
+2026-07-31 16:42:22,313 INFO status has been updated to running
+2026-07-31 16:42:50,940 INFO status has been updated to successful
+8cab7b133631aaddd24a794f2ceb08c1.nc:   0%|          | 0.00/51.8k [00:00<?, ?B/s]8cab7b133631aaddd24a794f2ceb08c1.nc: 100%|##########| 51.8k/51.8k [00:00<00:00, 246kB/s]                                                                                        [170/180] initial_fire_spread_index 2023 -> data\raw_fwi\initial_fire_spread_index_2023.nc
+2026-07-31 16:42:52,058 INFO Request ID is c48f8491-2085-4a28-8ae7-d9869ef9f39e
+2026-07-31 16:42:52,129 INFO status has been updated to accepted
+2026-07-31 16:43:13,314 INFO status has been updated to running
+2026-07-31 16:43:43,236 INFO status has been updated to successful
+d3d14bb33cb9589c2753030783716c6b.nc:   0%|          | 0.00/52.3k [00:00<?, ?B/s]d3d14bb33cb9589c2753030783716c6b.nc: 100%|##########| 52.3k/52.3k [00:00<00:00, 216kB/s]                                                                                        [171/180] fire_weather_index 2024 -> data\raw_fwi\fire_weather_index_2024.nc
+2026-07-31 16:43:46,050 INFO Request ID is 78123754-484d-433c-8862-422b884f34d7
+2026-07-31 16:43:46,105 INFO status has been updated to accepted
+2026-07-31 16:44:07,311 INFO status has been updated to running
+2026-07-31 16:44:39,683 INFO status has been updated to successful
+9cc5dca30aab31940e70fbd890d73fda.nc:   0%|          | 0.00/53.2k [00:00<?, ?B/s]9cc5dca30aab31940e70fbd890d73fda.nc: 100%|##########| 53.2k/53.2k [00:00<00:00, 234kB/s]                                                                                        [172/180] drought_code 2024 -> data\raw_fwi\drought_code_2024.nc
+2026-07-31 16:44:41,956 INFO Request ID is 3907ce11-afd2-49ee-864d-df6955c309ca
+2026-07-31 16:44:42,026 INFO status has been updated to accepted
+2026-07-31 16:45:05,856 INFO status has been updated to running
+2026-07-31 16:45:17,369 INFO status has been updated to successful
+199977af4fdca5995d51d6145d86e2c9.nc:   0%|          | 0.00/51.3k [00:00<?, ?B/s]199977af4fdca5995d51d6145d86e2c9.nc: 100%|##########| 51.3k/51.3k [00:00<00:00, 183kB/s]                                                                                        [173/180] fine_fuel_moisture_code 2024 -> data\raw_fwi\fine_fuel_moisture_code_2024.nc
+2026-07-31 16:45:20,366 INFO Request ID is 46fa6ffe-4af4-4d8b-8ec0-7823a96a8606
+2026-07-31 16:45:20,439 INFO status has been updated to accepted
+2026-07-31 16:45:41,633 INFO status has been updated to running
+2026-07-31 16:46:10,216 INFO status has been updated to successful
+23ba529180e7fc4bee65c2b48d06a7b6.nc:   0%|          | 0.00/51.0k [00:00<?, ?B/s]23ba529180e7fc4bee65c2b48d06a7b6.nc: 100%|##########| 51.0k/51.0k [00:00<00:00, 230kB/s]                                                                                        [174/180] build_up_index 2024 -> data\raw_fwi\build_up_index_2024.nc
+2026-07-31 16:46:11,371 INFO Request ID is 407459b3-82f0-4ecb-842b-524391a05cfb
+2026-07-31 16:46:11,445 INFO status has been updated to accepted
+2026-07-31 16:46:27,467 INFO status has been updated to running
+2026-07-31 16:47:03,769 INFO status has been updated to successful
+944699f2b32d7c61a1df05b5cff3eef.nc:   0%|          | 0.00/51.6k [00:00<?, ?B/s]944699f2b32d7c61a1df05b5cff3eef.nc: 100%|##########| 51.6k/51.6k [00:00<00:00, 226kB/s]                                                                                       [175/180] initial_fire_spread_index 2024 -> data\raw_fwi\initial_fire_spread_index_2024.nc
+2026-07-31 16:47:05,159 INFO Request ID is 6697b32f-f6ba-4f4a-af9f-4db76cffea68
+2026-07-31 16:47:05,231 INFO status has been updated to accepted
+2026-07-31 16:47:37,833 INFO status has been updated to running
+2026-07-31 16:48:20,709 INFO status has been updated to successful
+b2d8eed0cdbb509838d2fbbb70efd68a.nc:   0%|          | 0.00/52.9k [00:00<?, ?B/s]b2d8eed0cdbb509838d2fbbb70efd68a.nc: 100%|##########| 52.9k/52.9k [00:00<00:00, 187kB/s]                                                                                        [176/180] fire_weather_index 2025 -> data\raw_fwi\fire_weather_index_2025.nc
+2026-07-31 16:48:21,742 INFO Request ID is 4ec8dd02-a159-404e-ba9d-b80a6723193d
+2026-07-31 16:48:21,830 INFO status has been updated to accepted
+2026-07-31 16:49:38,616 INFO status has been updated to running
+Recovering from connection error [('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))], attempt 1 of 500
+Retrying in 120 seconds
+2026-07-31 16:53:15,113 INFO status has been updated to successful
+8c0846aad4991790151d2d1b2a41dac5.nc:   0%|          | 0.00/53.6k [00:00<?, ?B/s]8c0846aad4991790151d2d1b2a41dac5.nc: 100%|##########| 53.6k/53.6k [00:00<00:00, 217kB/s]                                                                                        [177/180] drought_code 2025 -> data\raw_fwi\drought_code_2025.nc
+2026-07-31 16:53:19,009 INFO Request ID is 6e8f3039-86cf-40ef-9229-cd7d167ca6ca
+2026-07-31 16:53:19,091 INFO status has been updated to accepted
+2026-07-31 16:53:52,787 INFO status has been updated to running
+2026-07-31 16:54:09,976 INFO status has been updated to successful
+33e50470626bc37685e5f3626dba1b48.nc:   0%|          | 0.00/51.7k [00:00<?, ?B/s]33e50470626bc37685e5f3626dba1b48.nc: 100%|##########| 51.7k/51.7k [00:00<00:00, 235kB/s]                                                                                        [178/180] fine_fuel_moisture_code 2025 -> data\raw_fwi\fine_fuel_moisture_code_2025.nc
+2026-07-31 16:54:10,723 INFO Request ID is c05f86b0-1cd6-4aec-81ab-19301fe1e855
+2026-07-31 16:54:10,892 INFO status has been updated to accepted
+2026-07-31 16:54:27,671 INFO status has been updated to running
+2026-07-31 16:54:46,796 INFO status has been updated to successful
+b25f550293478e87398b0e6433442472.nc:   0%|          | 0.00/51.4k [00:00<?, ?B/s]b25f550293478e87398b0e6433442472.nc: 100%|##########| 51.4k/51.4k [00:00<00:00, 240kB/s]                                                                                        [179/180] build_up_index 2025 -> data\raw_fwi\build_up_index_2025.nc
+2026-07-31 16:54:48,944 INFO Request ID is 0d0ba39d-2ec2-41ca-9c9e-c1bded13b3f4
+2026-07-31 16:54:49,021 INFO status has been updated to accepted
+2026-07-31 16:55:10,588 INFO status has been updated to running
+2026-07-31 16:55:39,324 INFO status has been updated to successful
+ebcb9c4375c142093616e2a3d91a3a63.nc:   0%|          | 0.00/51.5k [00:00<?, ?B/s]ebcb9c4375c142093616e2a3d91a3a63.nc: 100%|##########| 51.5k/51.5k [00:00<00:00, 231kB/s]                                                                                        [180/180] initial_fire_spread_index 2025 -> data\raw_fwi\initial_fire_spread_index_2025.nc
+2026-07-31 16:55:40,409 INFO Request ID is 52d0b39e-ece9-4841-892c-31cdc1b7c08b
+2026-07-31 16:55:40,475 INFO status has been updated to accepted
+2026-07-31 16:56:01,667 INFO status has been updated to running
+2026-07-31 16:56:14,119 INFO status has been updated to successful
+9957514a1d4b160a7622762c0834fa57.nc:   0%|          | 0.00/53.2k [00:00<?, ?B/s]9957514a1d4b160a7622762c0834fa57.nc: 100%|##########| 53.2k/53.2k [00:00<00:00, 248kB/s]                                                                                        
+done. files present:
+  build_up_index_1990.nc  0.1 MB  nc
+  build_up_index_1991.nc  0.1 MB  nc
+  build_up_index_1992.nc  0.1 MB  nc
+  build_up_index_1993.nc  0.1 MB  nc
+  build_up_index_1994.nc  0.1 MB  nc
+  build_up_index_1995.nc  0.1 MB  nc
+  build_up_index_1996.nc  0.1 MB  nc
+  build_up_index_1997.nc  0.1 MB  nc
+  build_up_index_1998.nc  0.1 MB  nc
+  build_up_index_1999.nc  0.1 MB  nc
+  build_up_index_2000.nc  0.1 MB  nc
+  build_up_index_2001.nc  0.1 MB  nc
+  build_up_index_2002.nc  0.1 MB  nc
+  build_up_index_2003.nc  0.1 MB  nc
+  build_up_index_2004.nc  0.1 MB  nc
+  build_up_index_2005.nc  0.1 MB  nc
+  build_up_index_2006.nc  0.1 MB  nc
+  build_up_index_2007.nc  0.1 MB  nc
+  build_up_index_2008.nc  0.1 MB  nc
+  build_up_index_2009.nc  0.1 MB  nc
+  build_up_index_2010.nc  0.1 MB  nc
+  build_up_index_2011.nc  0.1 MB  nc
+  build_up_index_2012.nc  0.1 MB  nc
+  build_up_index_2013.nc  0.1 MB  nc
+  build_up_index_2014.nc  0.1 MB  nc
+  build_up_index_2015.nc  0.1 MB  nc
+  build_up_index_2016.nc  0.1 MB  nc
+  build_up_index_2017.nc  0.1 MB  nc
+  build_up_index_2018.nc  0.1 MB  nc
+  build_up_index_2019.nc  0.1 MB  nc
+  build_up_index_2020.nc  0.1 MB  nc
+  build_up_index_2021.nc  0.1 MB  nc
+  build_up_index_2022.nc  0.1 MB  nc
+  build_up_index_2023.nc  0.1 MB  nc
+  build_up_index_2024.nc  0.1 MB  nc
+  build_up_index_2025.nc  0.1 MB  nc
+  drought_code_1990.nc  0.1 MB  nc
+  drought_code_1991.nc  0.1 MB  nc
+  drought_code_1992.nc  0.1 MB  nc
+  drought_code_1993.nc  0.1 MB  nc
+  drought_code_1994.nc  0.1 MB  nc
+  drought_code_1995.nc  0.1 MB  nc
+  drought_code_1996.nc  0.1 MB  nc
+  drought_code_1997.nc  0.1 MB  nc
+  drought_code_1998.nc  0.1 MB  nc
+  drought_code_1999.nc  0.1 MB  nc
+  drought_code_2000.nc  0.1 MB  nc
+  drought_code_2001.nc  0.1 MB  nc
+  drought_code_2002.nc  0.1 MB  nc
+  drought_code_2003.nc  0.1 MB  nc
+  drought_code_2004.nc  0.1 MB  nc
+  drought_code_2005.nc  0.1 MB  nc
+  drought_code_2006.nc  0.1 MB  nc
+  drought_code_2007.nc  0.1 MB  nc
+  drought_code_2008.nc  0.1 MB  nc
+  drought_code_2009.nc  0.1 MB  nc
+  drought_code_2010.nc  0.1 MB  nc
+  drought_code_2011.nc  0.1 MB  nc
+  drought_code_2012.nc  0.1 MB  nc
+  drought_code_2013.nc  0.1 MB  nc
+  drought_code_2014.nc  0.1 MB  nc
+  drought_code_2015.nc  0.1 MB  nc
+  drought_code_2016.nc  0.1 MB  nc
+  drought_code_2017.nc  0.1 MB  nc
+  drought_code_2018.nc  0.1 MB  nc
+  drought_code_2019.nc  0.1 MB  nc
+  drought_code_2020.nc  0.1 MB  nc
+  drought_code_2021.nc  0.1 MB  nc
+  drought_code_2022.nc  0.1 MB  nc
+  drought_code_2023.nc  0.1 MB  nc
+  drought_code_2024.nc  0.1 MB  nc
+  drought_code_2025.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1990.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1991.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1992.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1993.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1994.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1995.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1996.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1997.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1998.nc  0.1 MB  nc
+  fine_fuel_moisture_code_1999.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2000.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2001.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2002.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2003.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2004.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2005.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2006.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2007.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2008.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2009.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2010.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2011.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2012.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2013.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2014.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2015.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2016.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2017.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2018.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2019.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2020.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2021.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2022.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2023.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2024.nc  0.1 MB  nc
+  fine_fuel_moisture_code_2025.nc  0.1 MB  nc
+  fire_weather_index_1990.nc  0.1 MB  nc
+  fire_weather_index_1991.nc  0.1 MB  nc
+  fire_weather_index_1992.nc  0.1 MB  nc
+  fire_weather_index_1993.nc  0.1 MB  nc
+  fire_weather_index_1994.nc  0.1 MB  nc
+  fire_weather_index_1995.nc  0.1 MB  nc
+  fire_weather_index_1996.nc  0.1 MB  nc
+  fire_weather_index_1997.nc  0.1 MB  nc
+  fire_weather_index_1998.nc  0.1 MB  nc
+  fire_weather_index_1999.nc  0.1 MB  nc
+  fire_weather_index_2000.nc  0.1 MB  nc
+  fire_weather_index_2001.nc  0.1 MB  nc
+  fire_weather_index_2002.nc  0.1 MB  nc
+  fire_weather_index_2003.nc  0.1 MB  nc
+  fire_weather_index_2004.nc  0.1 MB  nc
+  fire_weather_index_2005.nc  0.1 MB  nc
+  fire_weather_index_2006.nc  0.1 MB  nc
+  fire_weather_index_2007.nc  0.1 MB  nc
+  fire_weather_index_2008.nc  0.1 MB  nc
+  fire_weather_index_2009.nc  0.1 MB  nc
+  fire_weather_index_2010.nc  0.1 MB  nc
+  fire_weather_index_2011.nc  0.1 MB  nc
+  fire_weather_index_2012.nc  0.1 MB  nc
+  fire_weather_index_2013.nc  0.1 MB  nc
+  fire_weather_index_2014.nc  0.1 MB  nc
+  fire_weather_index_2015.nc  0.1 MB  nc
+  fire_weather_index_2016.nc  0.1 MB  nc
+  fire_weather_index_2017.nc  0.1 MB  nc
+  fire_weather_index_2018.nc  0.1 MB  nc
+  fire_weather_index_2019.nc  0.1 MB  nc
+  fire_weather_index_2020.nc  0.1 MB  nc
+  fire_weather_index_2021.nc  0.1 MB  nc
+  fire_weather_index_2022.nc  0.1 MB  nc
+  fire_weather_index_2023.nc  0.1 MB  nc
+  fire_weather_index_2024.nc  0.1 MB  nc
+  fire_weather_index_2025.nc  0.1 MB  nc
+  initial_fire_spread_index_1990.nc  0.1 MB  nc
+  initial_fire_spread_index_1991.nc  0.1 MB  nc
+  initial_fire_spread_index_1992.nc  0.1 MB  nc
+  initial_fire_spread_index_1993.nc  0.1 MB  nc
+  initial_fire_spread_index_1994.nc  0.1 MB  nc
+  initial_fire_spread_index_1995.nc  0.1 MB  nc
+  initial_fire_spread_index_1996.nc  0.1 MB  nc
+  initial_fire_spread_index_1997.nc  0.1 MB  nc
+  initial_fire_spread_index_1998.nc  0.1 MB  nc
+  initial_fire_spread_index_1999.nc  0.1 MB  nc
+  initial_fire_spread_index_2000.nc  0.1 MB  nc
+  initial_fire_spread_index_2001.nc  0.1 MB  nc
+  initial_fire_spread_index_2002.nc  0.1 MB  nc
+  initial_fire_spread_index_2003.nc  0.1 MB  nc
+  initial_fire_spread_index_2004.nc  0.1 MB  nc
+  initial_fire_spread_index_2005.nc  0.1 MB  nc
+  initial_fire_spread_index_2006.nc  0.1 MB  nc
+  initial_fire_spread_index_2007.nc  0.1 MB  nc
+  initial_fire_spread_index_2008.nc  0.1 MB  nc
+  initial_fire_spread_index_2009.nc  0.1 MB  nc
+  initial_fire_spread_index_2010.nc  0.1 MB  nc
+  initial_fire_spread_index_2011.nc  0.1 MB  nc
+  initial_fire_spread_index_2012.nc  0.1 MB  nc
+  initial_fire_spread_index_2013.nc  0.1 MB  nc
+  initial_fire_spread_index_2014.nc  0.1 MB  nc
+  initial_fire_spread_index_2015.nc  0.1 MB  nc
+  initial_fire_spread_index_2016.nc  0.1 MB  nc
+  initial_fire_spread_index_2017.nc  0.1 MB  nc
+  initial_fire_spread_index_2018.nc  0.1 MB  nc
+  initial_fire_spread_index_2019.nc  0.1 MB  nc
+  initial_fire_spread_index_2020.nc  0.1 MB  nc
+  initial_fire_spread_index_2021.nc  0.1 MB  nc
+  initial_fire_spread_index_2022.nc  0.1 MB  nc
+  initial_fire_spread_index_2023.nc  0.1 MB  nc
+  initial_fire_spread_index_2024.nc  0.1 MB  nc
+  initial_fire_spread_index_2025.nc  0.1 MB  nc
