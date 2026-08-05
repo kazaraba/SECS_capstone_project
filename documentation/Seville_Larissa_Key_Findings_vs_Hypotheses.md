@@ -538,7 +538,7 @@ statistical, standardized sense.
 
 ## Part 7 — Climate Indicators Modeling: final indicator sets and baseline-model verdicts, both cities
 
-Consolidates `Climate_Indicators_Modeling.ipynb` (Seville) and `Larissa_Climate_Indicators_Modeling.ipynb`
+Consolidates `Climate_Indicators_Modeling.ipynb` (Seville) and `Climate_Indicators_Modeling_Larissa.ipynb`
 (Larissa) — each city's three headline indicators, joined into a single annual series, put through
 the same rigor: OLS/Kendall trend test, Spearman correlation structure, single-split baseline
 comparison, walk-forward CV robustness check, and (where needed) an extended search for a model that
@@ -644,8 +644,8 @@ and consistency:
 |---|---|---|---|---|
 | Seville | July 2022 heatwave | `tmax_mean` | `Climate_Indicators_Modeling.ipynb` §12 | Annual mean alone understates it — 2022 ranks only 5th-warmest (24.15°C) since a ~2-week spike gets diluted into a yearly average. Daily zoom shows two detected heatwave events, peaking at 39.8°C on 2022-07-13. |
 | Seville | April 2023 drought | `min_spi3` | `Climate_Indicators_Modeling.ipynb` §12 | Captured directly — `min_spi3` *is* each year's minimum monthly SPI-3, so 2023's annual point equals the April 2023 reading exactly: **−3.65**, the most severe in the 36-year record. |
-| Larissa | September 2023 Storm Daniel flood | `max_week_precip_mm` | `Larissa_Climate_Indicators_Modeling.ipynb` §12 | Captured directly — 2023 is the record year by a wide margin (253.1 mm vs. next-highest 155.7 mm in 1998). Daily zoom confirms the 4-day total (Sep 4–7) sums to 253.0 mm, matching the annual value almost exactly. |
-| Larissa | July 2023 chronic heatwave | `tmin_mean` | `Larissa_Climate_Indicators_Modeling.ipynb` §13 | The actual event was **9 days (Jul 18–26)**, not the 15-day streak on record (which started 2024-07-08) — corrected before illustrating rather than assumed. Contains the hottest sampled day in the record (43.3°C, Jul 23). `tmin_mean` was chosen over `tmax_mean` because nights stayed at 24–27°C throughout, never dropping below the 20°C tropical-night threshold — day *and* night stayed elevated together, the "chronic" part of the story. |
+| Larissa | September 2023 Storm Daniel flood | `max_week_precip_mm` | `Climate_Indicators_Modeling_Larissa.ipynb` §12 | Captured directly — 2023 is the record year by a wide margin (253.1 mm vs. next-highest 155.7 mm in 1998). Daily zoom confirms the 4-day total (Sep 4–7) sums to 253.0 mm, matching the annual value almost exactly. |
+| Larissa | July 2023 chronic heatwave | `tmin_mean` | `Climate_Indicators_Modeling_Larissa.ipynb` §13 | The actual event was **9 days (Jul 18–26)**, not the 15-day streak on record (which started 2024-07-08) — corrected before illustrating rather than assumed. Contains the hottest sampled day in the record (43.3°C, Jul 23). `tmin_mean` was chosen over `tmax_mean` because nights stayed at 24–27°C throughout, never dropping below the 20°C tropical-night threshold — day *and* night stayed elevated together, the "chronic" part of the story. |
 
 Two things worth flagging explicitly about the Larissa heatwave entry: a claimed "230 consecutive
 hours above 30°C" for this event was checked against the project's own 6-hourly ERA5 data and could
