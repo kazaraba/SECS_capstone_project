@@ -62,7 +62,7 @@ heterogeneity.*
 | Historical baseline (temp, precip, wind, RH) | `reanalysis-era5-single-levels` (CDS) | Both | 1990–2025 |
 | Fixed reference period for percentile thresholds | Same dataset, subset in analysis | Both | 1990–2020 |
 | Pre-built climate indicators (check first — may cover heatwave/tropical night calcs already) | `sis-ecde-climate-indicators` (CDS) | Both | 1940–2100 |
-| Raw projections (fallback if pre-built indicators don't cover it) | `projections-cmip6`, SSP5-8.5 scenario | Both | 2026–2045 |
+| Raw projections (fallback if pre-built indicators don't cover it) | `projections-cmip6`, SSP5-8.5 scenario, `ec_earth3` model | Both | 2026–2045 |
 | Fire danger, historical | CEMS Fire danger historical dataset (CDS) | Seville | 1990–2025 |
 | Fire danger, projected | "Fire danger indicators for Europe" (RCP4.5/8.5, FWI-based) | Seville | 2026–2045 |
 | Precipitation for SPI | Same ERA5 pull as baseline (`total_precipitation` variable); optional E-OBS cross-check | Larissa | 1990–2025 |
