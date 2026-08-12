@@ -1,0 +1,18 @@
+
+fetch_cmip6_projections.py
+
+Pull CMIP6 SSP5-8.5 daily projections (2026-2045) for Seville + Larissa from the
+Copernicus CDS, then merge to one tidy daily CSV per city.
+
+Request shape copied from the CDS "Show API request" output, so it is confirmed
+valid: no `day` field, no `level` field, all 20 years in a single request.
+
+Stages:
+    python fetch_cmip6_projections.py download   # 12 requests (6 vars x 2 cities)
+    python fetch_cmip6_projections.py extract    # unzip
+    python fetch_cmip6_projections.py merge      # units, RH derivation -> CSV
+    python fetch_cmip6_projections.py status     # what's done
+
+Credentials: ~/.cdsapirc (CDS portal, NOT the EWDS one).
+
+stages: download, extract, merge, status
