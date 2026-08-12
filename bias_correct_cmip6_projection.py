@@ -64,6 +64,7 @@ VARIABLE_MAP = {
     "tmean_c":         ("tmean_c",          "additive"),
     "wind_avg":        ("wind_avg",         "additive"),
     "rh_mean_percent": ("rh_mean_percent",  "additive"),
+    "rh_min_percent":  ("rh_min_percent",   "additive"),
     "precip_mm_day":   ("precip_mm_scaled", "multiplicative"),
 }
 

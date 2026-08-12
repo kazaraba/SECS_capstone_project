@@ -209,7 +209,8 @@ def prepare(daily_csv, wind_csv, city, colmap, rh_col=None,
           f"{work.index.min().date()} -> {work.index.max().date()}")
     print(f"          tasmax  mean {work['tasmax_c'].mean():.1f} degC")
     print(f"          hurs    mean {work['hurs_noon'].mean():.1f} %")
-    print(f"          wind    mean {work['wind_kmh'].mean():.1f} km/h  (climatology)")
+    src = f"column {wind_col}" if wind_col else "monthly climatology"
+    print(f"          wind    mean {work['wind_kmh'].mean():.1f} km/h  ({src})")
     print(f"          precip  mean {work['pr_mm'].mean():.2f} mm/day")
     return work
 

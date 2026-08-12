@@ -119,12 +119,17 @@ def compute_fwi(df, lat, ffmc0=None, dmc0=None, dc0=None):
         season_method=None,      # year-round, as GEFF/CEMS does
         overwintering=False,
     )
+    def code0(v):
+        arr = xr.DataArray(float(v))
+        arr.attrs["units"] = ""      # FWI codes are dimensionless
+        return arr
+
     if ffmc0 is not None:
-        kwargs["ffmc0"] = xr.DataArray(float(ffmc0))
+        kwargs["ffmc0"] = code0(ffmc0)
     if dmc0 is not None:
-        kwargs["dmc0"] = xr.DataArray(float(dmc0))
+        kwargs["dmc0"] = code0(dmc0)
     if dc0 is not None:
-        kwargs["dc0"] = xr.DataArray(float(dc0))
+        kwargs["dc0"] = code0(dc0)
 
     # xclim returns the codes in this order. Verify against CEMS on the
     # historical run before trusting the projection output.
@@ -138,34 +143,62 @@ def compute_fwi(df, lat, ffmc0=None, dmc0=None, dc0=None):
 
 
 # --- assembly ---------------------------------------------------------
-def prepare(daily_csv, wind_csv, city, colmap):
+def prepare(daily_csv, wind_csv, city, colmap, rh_col=None,
+            wind_col=None, wind_units="m/s"):
+    """
+    Assemble the four FWI inputs.
+
+    Humidity comes either from an existing column (--rh-col, e.g. ERA5's
+    rh_min, which already IS the noon proxy) or is derived from specific
+    humidity + pressure + tasmax (the CMIP6 route).
+
+    Wind comes either from an existing column (--wind-col, historical runs)
+    or from a monthly climatology file (projection runs, where the model
+    publishes no wind).
+    """
     df = pd.read_csv(daily_csv, index_col=0, parse_dates=True)
     df = df.sort_index()
 
-    missing = [v for v in colmap.values() if v not in df.columns]
+    need = ["tasmax", "pr"] + ([] if rh_col else ["huss", "psl"])
+    missing = [colmap[k] for k in need if colmap[k] not in df.columns]
+    if rh_col and rh_col not in df.columns:
+        missing.append(rh_col)
+    if wind_col and wind_col not in df.columns:
+        missing.append(wind_col)
     if missing:
         raise SystemExit(
             f"[error] columns not found in {daily_csv}: {missing}\n"
-            f"        available: {list(df.columns)}\n"
-            f"        fix with --map \"tasmax=<col>,huss=<col>,psl=<col>,pr=<col>\"")
+            f"        available: {list(df.columns)}")
 
     work = pd.DataFrame(index=df.index)
     work["tasmax_c"] = df[colmap["tasmax"]].astype(float)
     work["pr_mm"] = df[colmap["pr"]].astype(float)
-    work["hurs_noon"] = relative_humidity(
-        df[colmap["huss"]].astype(float).values,
-        df[colmap["psl"]].astype(float).values,
-        work["tasmax_c"].values,
-    )
 
-    clim = pd.read_csv(wind_csv)
-    clim = clim[clim["city"].str.lower() == city.lower()]
-    if clim.empty:
-        raise SystemExit(f"[error] no wind climatology rows for city={city!r}")
-    month_kmh = dict(zip(clim["month"].astype(int), clim["wind_kmh"].astype(float)))
-    if sorted(month_kmh) != list(range(1, 13)):
-        raise SystemExit(f"[error] climatology for {city} has months {sorted(month_kmh)}")
-    work["wind_kmh"] = daily_wind_from_climatology(work.index, month_kmh).values
+    if rh_col:
+        work["hurs_noon"] = df[rh_col].astype(float).clip(1.0, 100.0)
+        print(f"[prepare] humidity: column {rh_col!r} used directly")
+    else:
+        work["hurs_noon"] = relative_humidity(
+            df[colmap["huss"]].astype(float).values,
+            df[colmap["psl"]].astype(float).values,
+            work["tasmax_c"].values,
+        )
+        print("[prepare] humidity: derived from huss + psl + tasmax")
+
+    if wind_col:
+        factor = 3.6 if wind_units.lower() in ("m/s", "ms", "mps") else 1.0
+        work["wind_kmh"] = df[wind_col].astype(float) * factor
+        print(f"[prepare] wind: column {wind_col!r} x{factor} -> km/h")
+    else:
+        clim = pd.read_csv(wind_csv)
+        clim = clim[clim["city"].str.lower() == city.lower()]
+        if clim.empty:
+            raise SystemExit(f"[error] no wind climatology rows for city={city!r}")
+        month_kmh = dict(zip(clim["month"].astype(int), clim["wind_kmh"].astype(float)))
+        if sorted(month_kmh) != list(range(1, 13)):
+            raise SystemExit(f"[error] climatology for {city} has months {sorted(month_kmh)}")
+        work["wind_kmh"] = daily_wind_from_climatology(work.index, month_kmh).values
+        print(f"[prepare] wind: monthly climatology for {city}")
 
     nan = work.isna().sum()
     if nan.any():
@@ -179,6 +212,49 @@ def prepare(daily_csv, wind_csv, city, colmap):
     print(f"          wind    mean {work['wind_kmh'].mean():.1f} km/h  (climatology)")
     print(f"          precip  mean {work['pr_mm'].mean():.2f} mm/day")
     return work
+
+
+def build_clim_from_daily(daily_csv, wind_col, city, out_csv,
+                          wind_units="m/s", start=1991, end=2020):
+    """
+    Derive the monthly wind climatology from an existing daily wind column,
+    so no ERA5 download is needed. Restricted to the WMO 30-year normal
+    period by default.
+    """
+    df = pd.read_csv(daily_csv, index_col=0, parse_dates=True).sort_index()
+    if wind_col not in df.columns:
+        raise SystemExit(f"[error] {wind_col!r} not in {daily_csv}; "
+                         f"available: {list(df.columns)}")
+
+    s = df.loc[str(start):str(end), wind_col].astype(float).dropna()
+    if s.empty:
+        raise SystemExit(f"[error] no {wind_col} data in {start}-{end}")
+
+    factor = 3.6 if wind_units.lower() in ("m/s", "ms", "mps") else 1.0
+    monthly = s.groupby(s.index.month).mean()
+
+    rows = [{
+        "city": city,
+        "month": int(m),
+        "wind_ms": round(float(v if factor == 3.6 else v / 3.6), 4),
+        "wind_kmh": round(float(v * factor), 4),
+        "n_years": int(s.index.year.nunique()),
+    } for m, v in monthly.items()]
+
+    new = pd.DataFrame(rows)
+    if os.path.exists(out_csv):
+        old = pd.read_csv(out_csv)
+        old = old[old["city"].str.lower() != city.lower()]
+        new = pd.concat([old, new], ignore_index=True)
+    new = new.sort_values(["city", "month"])
+    os.makedirs(os.path.dirname(out_csv) or ".", exist_ok=True)
+    new.to_csv(out_csv, index=False)
+
+    print(f"[clim] {city}: {len(s)} days, {s.index.year.nunique()} years "
+          f"({start}-{end})")
+    print(f"[clim] -> {out_csv}")
+    print(new[new["city"].str.lower() == city.lower()].to_string(index=False))
+    return 0
 
 
 def annual_indicators(df, threshold=30.0):
@@ -260,6 +336,15 @@ def main():
     ap.add_argument("--lat", type=float)
     ap.add_argument("--out")
     ap.add_argument("--map", default="", help='e.g. "tasmax=tx,pr=precip"')
+    ap.add_argument("--rh-col", default=None,
+                    help="use this column as noon RH instead of deriving it")
+    ap.add_argument("--wind-col", default=None,
+                    help="use this daily wind column instead of the climatology")
+    ap.add_argument("--wind-units", default="m/s", choices=["m/s", "km/h"])
+    ap.add_argument("--build-clim", action="store_true",
+                    help="derive the monthly climatology from --wind-col and exit")
+    ap.add_argument("--clim-start", type=int, default=1991)
+    ap.add_argument("--clim-end", type=int, default=2020)
     ap.add_argument("--ffmc0", type=float, default=None)
     ap.add_argument("--dmc0", type=float, default=None)
     ap.add_argument("--dc0", type=float, default=None)
@@ -270,6 +355,14 @@ def main():
     if args.selftest:
         return selftest()
 
+    if args.build_clim:
+        for req in ("daily", "city", "wind_col"):
+            if getattr(args, req) in (None, ""):
+                raise SystemExit(f"[error] --{req.replace('_','-')} is required")
+        return build_clim_from_daily(args.daily, args.wind_col, args.city,
+                                     args.wind_clim, args.wind_units,
+                                     args.clim_start, args.clim_end)
+
     for req in ("daily", "city", "lat", "out"):
         if getattr(args, req) in (None, ""):
             raise SystemExit(f"[error] --{req.replace('_','-')} is required")
@@ -279,7 +372,9 @@ def main():
         k, _, v = pair.partition("=")
         colmap[k.strip()] = v.strip()
 
-    work = prepare(args.daily, args.wind_clim, args.city, colmap)
+    work = prepare(args.daily, args.wind_clim, args.city, colmap,
+                   rh_col=args.rh_col, wind_col=args.wind_col,
+                   wind_units=args.wind_units)
     out = compute_fwi(work, args.lat, args.ffmc0, args.dmc0, args.dc0)
 
     if args.spinup_days:

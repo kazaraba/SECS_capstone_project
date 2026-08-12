@@ -33,7 +33,7 @@ DATASET = "projections-cmip6"
 # out in the download form). EC-Earth3-CC substituted: same atmospheric
 # component and ~0.7 deg resolution, plus an interactive carbon cycle.
 MODEL = "ec_earth3_cc"
-EXPERIMENT = "ssp5_8_5"
+EXPERIMENT = "ssp2_4_5"
 
 YEARS = [str(y) for y in range(2026, 2046)]
 MONTHS = [f"{m:02d}" for m in range(1, 13)]
@@ -68,6 +68,11 @@ CITIES = {
 RAW_DIR = os.path.join("data", "raw_cmip6")
 NC_DIR = os.path.join(RAW_DIR, "nc")
 OUT_DIR = "data"
+# --- scenario scoping -------------------------------------------------
+TAG = EXPERIMENT.replace("_", "")
+RAW_DIR = os.path.join("data", "raw_cmip6", TAG)
+NC_DIR = os.path.join(RAW_DIR, "nc")
+# ----------------------------------------------------------------------
 
 RETRIES = 3
 RETRY_SLEEP = 60
@@ -367,7 +372,7 @@ def stage_merge():
             print(f"  - hurs_derived: skipped, missing {sorted(missing)}")
 
         df.index.name = "date"
-        out = os.path.join(OUT_DIR, f"{city}_cmip6_ssp585_daily_2026_2045.csv")
+        out = os.path.join(OUT_DIR, f"{city}_cmip6_{TAG}_daily_{YEARS[0]}_{YEARS[-1]}.csv")
         df.to_csv(out, float_format="%.4f")
         print(f"  -> {out}  ({len(df)} rows, {len(df.columns)} cols)")
         gaps = df.isna().sum()

@@ -40,14 +40,6 @@ def grid_average_daily(raw_csv_path):
     grid_mean = df.groupby("valid_time")[BASE].mean()
     grid_mean["relative_humidity_pct"] = derive_rh(
         grid_mean["tas"], grid_mean["huss"], grid_mean["psl"])
-    # Noon-RH proxy for FWI: evaluating humidity at the daily MAX temperature
-    # yields the daily MINIMUM RH, which approximates local-noon conditions.
-    # ERA5 rh_min/rh_mean at Seville runs 0.652 in July vs 0.855 in December,
-    # so a scalar or monthly-ratio rescale of mean RH is not adequate -- hence a
-    # separate derived variable, bias-corrected in its own right. Same
-    # recompute-from-averaged-inputs discipline as relative_humidity_pct above.
-    grid_mean["relative_humidity_min_pct"] = derive_rh(
-        grid_mean["tasmax"], grid_mean["huss"], grid_mean["psl"])
 
     daily = pd.DataFrame({
         "tmax_c": grid_mean["tasmax"] - 273.15,
@@ -56,7 +48,6 @@ def grid_average_daily(raw_csv_path):
         "precip_mm_day": grid_mean["precip_mm_day"],
         "wind_avg": grid_mean["sfcWind"],
         "rh_mean_percent": grid_mean["relative_humidity_pct"],
-        "rh_min_percent": grid_mean["relative_humidity_min_pct"],
     })
     daily["year"] = daily.index.year
     daily["month"] = daily.index.month
