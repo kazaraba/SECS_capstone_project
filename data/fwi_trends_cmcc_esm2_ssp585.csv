@@ -1,0 +1,9 @@
+city,metric,n_years,slope_per_decade,ci95_lo_per_decade,ci95_hi_per_decade,kendall_tau,p_value,sig_05
+Seville,days_fwi_gt30,20,3.167,-20.0,20.714,0.047,0.7702,False
+Seville,fwi_mean,20,-0.181,-2.692,2.609,-0.021,0.9235,False
+Seville,fwi_jjas_mean,20,-0.164,-3.156,3.489,-0.011,0.9745,False
+Seville,fwi_p95,20,-1.014,-3.933,1.594,-0.116,0.5006,False
+Larissa,days_fwi_gt30,20,9.688,-3.75,39.0,0.286,0.0795,False
+Larissa,fwi_mean,20,2.229,-0.006,4.73,0.316,0.0548,False
+Larissa,fwi_jjas_mean,20,1.721,-2.416,5.509,0.147,0.3859,False
+Larissa,fwi_p95,20,1.118,-2.552,5.119,0.105,0.5424,False

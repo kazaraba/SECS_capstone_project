@@ -1,0 +1,6 @@
+,code,r,mine_mean,cems_mean,bias,rmse
+Seville,fwi,0.969,20.2,19.84,0.36,4.32
+Seville,dc,0.987,555.84,539.97,15.87,63.47
+Seville,ffmc,0.929,83.35,82.91,0.44,5.75
+Seville,bui,0.971,139.93,134.83,5.1,39.15
+Seville,isi,0.931,6.15,6.17,-0.02,1.72
