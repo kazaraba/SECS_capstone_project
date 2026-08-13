@@ -1,0 +1,48 @@
+{
+  "root": "/Users/karina/neuefische_course/week-14/capstone_project/SECS_capstone_project",
+  "model": "CMCC-ESM2",
+  "model_tag": "cmcc_esm2",
+  "scenario": "ssp585",
+  "window": [
+    2026,
+    2045
+  ],
+  "baseline": [
+    1991,
+    2020
+  ],
+  "threshold": 30.0,
+  "threshold_source": "C3S high (mid-point of EFFIS 21.3-38.0)",
+  "xclim": "0.61.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.1",
+  "cities_validated": [
+    "seville"
+  ],
+  "cities_projected": [
+    "larissa",
+    "seville"
+  ],
+  "runs": {
+    "seville": {
+      "source": "/Users/karina/neuefische_course/week-14/capstone_project/SECS_capstone_project/Projected_SSP5-8.5/data/seville_cmip6_ssp585_2026_2061_biascorrected.csv",
+      "warm_start": true,
+      "ffmc0": 72.6553,
+      "dmc0": 1.4142421278451107,
+      "dc0": 222.7985,
+      "inserted_days": 9,
+      "clim_filled": 0,
+      "rows": 7305
+    },
+    "larissa": {
+      "source": "/Users/karina/neuefische_course/week-14/capstone_project/SECS_capstone_project/Projected_SSP5-8.5/data/larissa_cmip6_ssp585_2026_2061_biascorrected.csv",
+      "warm_start": false,
+      "ffmc0": null,
+      "dmc0": null,
+      "dc0": null,
+      "inserted_days": 9,
+      "clim_filled": 0,
+      "rows": 7305
+    }
+  }
+}
