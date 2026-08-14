@@ -2,3 +2,5 @@
 .DS_Store
 **/.DS_Store
 **/*_extracted/
+*.nc
+Projected_SSP5-8.5/data/cmip6_diag/*.zip
