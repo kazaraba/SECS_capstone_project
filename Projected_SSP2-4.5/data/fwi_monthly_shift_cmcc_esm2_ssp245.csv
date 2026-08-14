@@ -1,0 +1,13 @@
+city,month,baseline,2036_2045,delta,crosses_30
+Seville,1,4.4,3.1,-1.2,False
+Seville,2,7.2,5.0,-2.2,False
+Seville,3,10.8,14.4,3.6,False
+Seville,4,13.9,21.2,7.3,False
+Seville,5,23.1,25.6,2.5,False
+Seville,6,37.4,41.6,4.2,False
+Seville,7,44.2,45.7,1.4,False
+Seville,8,42.7,42.1,-0.6,False
+Seville,9,30.7,31.9,1.2,False
+Seville,10,15.9,18.1,2.2,False
+Seville,11,7.9,11.1,3.2,False
+Seville,12,4.7,6.8,2.1,False

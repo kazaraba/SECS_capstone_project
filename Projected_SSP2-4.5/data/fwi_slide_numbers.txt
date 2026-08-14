@@ -1,0 +1,4 @@
+Seville: FWI validated against CEMS 1991-2025 (12,784 days): daily FWI r = 0.969, drought code r = 0.987, mean offset +0.36 FWI units.
+Seville: persistence NOT reported - longest run r = 0.78 (bias +14 d), 5-day spell count r = 0.57.
+Seville: projection initialised by warm start from CEMS 2025-12-31; 5 calendar days interpolated.
+Seville: days FWI>30 126 (1991-2020) -> 139 (2036-2045), +13 d (+10%), SD 24  [within interannual variability]

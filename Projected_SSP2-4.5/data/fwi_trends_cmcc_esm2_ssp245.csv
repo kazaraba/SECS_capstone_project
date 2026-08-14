@@ -1,0 +1,5 @@
+city,metric,n_years,slope_per_decade,ci95_lo_per_decade,ci95_hi_per_decade,kendall_tau,p_value,sig_05
+Seville,days_fwi_gt30,20,-8.333,-21.0,15.882,-0.095,0.5588,False
+Seville,fwi_mean,20,-0.824,-3.318,3.014,-0.053,0.7732,False
+Seville,fwi_jjas_mean,20,0.345,-3.175,3.598,0.074,0.6771,False
+Seville,fwi_p95,20,0.295,-3.105,2.483,0.021,0.9235,False

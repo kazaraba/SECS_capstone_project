@@ -1,0 +1,13 @@
+city,metric,period,baseline,projected,change,change_pct,interannual_sd,distinguishable
+Seville,days_fwi_gt15,2026-2035,184.0,216.1,32.1,17.4,37.8,False
+Seville,days_fwi_gt15,2036-2045,184.0,203.3,19.3,10.5,34.6,False
+Seville,days_fwi_gt15,2026-2045,184.0,209.7,25.7,14.0,35.9,False
+Seville,days_fwi_gt30,2026-2035,126.2,141.5,15.3,12.2,29.3,False
+Seville,days_fwi_gt30,2036-2045,126.2,138.8,12.6,10.0,24.3,False
+Seville,days_fwi_gt30,2026-2045,126.2,140.2,14.0,11.1,26.2,False
+Seville,days_fwi_gt45,2026-2035,42.1,59.1,17.0,40.4,18.4,False
+Seville,days_fwi_gt45,2036-2045,42.1,51.6,9.5,22.6,19.8,False
+Seville,days_fwi_gt45,2026-2045,42.1,55.4,13.2,31.5,19.0,False
+Seville,fwi_jjas_mean,2026-2035,38.8,41.0,2.2,5.7,3.4,False
+Seville,fwi_jjas_mean,2036-2045,38.8,40.4,1.5,4.0,3.7,False
+Seville,fwi_jjas_mean,2026-2045,38.8,40.7,1.9,4.8,3.5,False

@@ -1,0 +1,37 @@
+{
+  "root": "/Users/karina/neuefische_course/week-14/capstone_project/SECS_capstone_project",
+  "model": "CMCC-ESM2",
+  "model_tag": "cmcc_esm2",
+  "scenario": "ssp245",
+  "window": [
+    2026,
+    2045
+  ],
+  "baseline": [
+    1991,
+    2020
+  ],
+  "threshold": 30.0,
+  "threshold_source": "C3S high (mid-point of EFFIS 21.3-38.0)",
+  "xclim": "0.61.1",
+  "pandas": "3.0.5",
+  "numpy": "2.4.6",
+  "cities_validated": [
+    "seville"
+  ],
+  "cities_projected": [
+    "seville"
+  ],
+  "runs": {
+    "seville": {
+      "source": "/Users/karina/neuefische_course/week-14/capstone_project/SECS_capstone_project/Projected_SSP2-4.5/data/seville_cmip6_cmcc_esm2_ssp245_2026_2045_biascorrected.csv",
+      "warm_start": true,
+      "ffmc0": 72.6553,
+      "dmc0": 1.4142421278451107,
+      "dc0": 222.7985,
+      "inserted_days": 5,
+      "clim_filled": 0,
+      "rows": 7305
+    }
+  }
+}
