@@ -29,6 +29,35 @@ generic-warming narrative:
   flood risk can produce, and the reference event the [ensemble follow-up](#future-work)
   below is aimed at resolving more precisely.
 
+<table>
+<tr>
+<td width="50%">
+<img src="documentation/images/spain_map.jpg" alt="Map of Spain and Portugal, with Seville marked">
+</td>
+<td width="50%">
+<img src="documentation/images/seville_location.jpg" alt="Seville and the Guadalquivir valley, with Doñana National Park to the southwest">
+</td>
+</tr>
+</table>
+
+*Seville sits in the flat, open Guadalquivir valley, ~80km from the Atlantic — the
+ocean-moderated, low-relief setting behind its narrower, daytime-only heat signature.*
+
+<table>
+<tr>
+<td width="50%">
+<img src="documentation/images/greece_map.jpg" alt="Map of Greece">
+</td>
+<td width="50%">
+<img src="documentation/images/larissa_location.jpg" alt="Larissa in the Thessalian plain, ringed by mountains">
+</td>
+</tr>
+</table>
+
+*Larissa sits in the Thessalian plain, tightly ringed by mountains on both sides — the
+continental, orographically complex setting behind both its broader heat signature and the
+CMIP6 grid-resolution caveat discussed under H2.*
+
 ## Key findings
 
 | Hypothesis | Verdict |
