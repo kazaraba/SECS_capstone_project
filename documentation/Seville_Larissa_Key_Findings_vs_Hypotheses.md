@@ -1,4 +1,4 @@
-# Summary of Key Findings — Seville & Larissa ERA5 Datasets vs. Initial Hypotheses
+# Summary of the Historical ERA5 Findings for Seville and Larissa, and Comparison to the Old Hypotheses
 
 Consolidates the hypothesis-independent findings from `seville_era5_eda.ipynb` and
 `larissa_era5_eda.ipynb` (both 1990–2025, each notebook's own section 17), then compares them
